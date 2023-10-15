@@ -1,7 +1,9 @@
-"use client";
+"use client"
+
 import Nav from "@/components/Nav";
 import Hero from "@/sections/Hero";
 import Faqs from "@/sections/Faqs";
+import Tag from "@/components/Tag";
 
 export default function Home() {
   return (
