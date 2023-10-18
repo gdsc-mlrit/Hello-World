@@ -8,10 +8,10 @@ const Hero = ({ dark }: any) => {
       } bg-cover flex justify-start items-center w-full relative`}
     >
       <div className="max-sm:min-h-[75vh] max-sm:flex max-sm:flex-col max-sm:gap-[2rem] max-sm:justify-center md:max-w-[60%] pl-4 md:pl-[9rem]">
-        <p className="sm:text-[12rem] font-semibold sm:leading-[12rem] text-[6rem] leading-[6rem] font-poppins pb-5">
+        <h1 className="md:text-[12rem] sm:text-[9rem] font-semibold sm:leading-[9rem] md:leading-[12rem] text-[6rem] leading-[6rem] font-poppins pb-5">
           Hello, <br />
           <span>World<span className="text-[#99F94E] ">.</span></span>
-        </p>
+        </h1>
 
         <p className="sm:hidden font-semibold pt-5 text-[23px]">
           Dive into the emerging <br />
