@@ -3,14 +3,25 @@
 import Nav from "@/components/Nav";
 import Hero from "@/sections/Hero";
 import Faqs from "@/sections/Faqs";
-import Tag from "@/components/Tag";
+import About from "@/components/About";
+import { useState } from "react";
+
 
 export default function Home() {
+  const [dark, setDark] = useState(false);
+  const changeTheme = () => {
+    setDark(!dark)
+  }
   return (
-    <main>
-      <Nav />
+    <main className="transition-all">
+      <Nav dark={dark} changeTheme={changeTheme}/>
 
-      <Hero />
+      <section id="Home">
+      <Hero dark={dark}/>
+      </section>
+
+
+      <About />
 
       <section className="bg-white min-h-screen bg[url(/bgImage.png)] bg-cover"></section>
       <section className="min-h-screen"></section>
