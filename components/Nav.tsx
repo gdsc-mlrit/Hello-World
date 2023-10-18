@@ -18,7 +18,7 @@ import ThemeButton from "./ThemeButton";
 const Nav = ({ dark, changeTheme }: any) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["Home", "Content", "FAQs"];
+  const menuItems = ["HOME", "ABOUT", "DOMAINS"];
 
   return (
     <Navbar
@@ -37,34 +37,34 @@ const Nav = ({ dark, changeTheme }: any) => {
           </Link>
 
           <NavbarContent
-            className="hidden sm:flex gap-[4rem] font-normal text-white pl-[4rem]"
+            className="hidden md:flex gap-[4.5rem] font-normal text-white pl-[4.5rem]"
             justify="center"
           >
             <NavbarItem>
               <Link
                 color="foreground"
                 href="#"
-                className={`text-2xl ${dark ? "text-white" : "text-black"}`}
+                className={`text-[1.38rem] ${dark ? "text-white" : "text-black"}`}
               >
-                Home
+                HOME
               </Link>
             </NavbarItem>
             <NavbarItem>
               <Link
                 color="foreground"
                 href="#"
-                className={`text-2xl ${dark ? "text-white" : "text-black"}`}
+                className={`text-[1.38rem] ${dark ? "text-white" : "text-black"}`}
               >
-                About
+                ABOUT
               </Link>
             </NavbarItem>
             <NavbarItem>
               <Link
                 color="foreground"
                 href="#"
-                className={`text-2xl ${dark ? "text-white" : "text-black"}`}
+                className={`text-[1.38rem] ${dark ? "text-white" : "text-black"}`}
               >
-                Domains
+                DOMAINS
               </Link>
             </NavbarItem>
           </NavbarContent>
@@ -72,21 +72,21 @@ const Nav = ({ dark, changeTheme }: any) => {
 
       </NavbarContent>
 
-      <NavbarItem className="sm:hidden">
+      <NavbarItem className="md:hidden">
         <ThemeButton dark={dark} handleTheme={changeTheme}/>
       </NavbarItem>
       
 
       <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="md:hidden"
       />
 
       
 
 
 
-      <NavbarContent justify="end" className="max-sm:hidden">
+      <NavbarContent justify="end" className="max-md:hidden">
         <ThemeButton dark={dark} handleTheme={changeTheme}/>
         <NavbarItem>
           <Button
@@ -94,20 +94,19 @@ const Nav = ({ dark, changeTheme }: any) => {
             href="#"
             variant="flat"
             radius="full"
-            className={`text-xl border hover:bg-white ${
-              dark ? "bg-white" : "text-black"
-            }`}
+            className={`text-xl border p-6 px-5 hover:bg-white ${
+              dark ? "bg-[#151515] text-[#99F94E] border-[#99F94E]" : "text-black"}`}
           >
-            Sponsor Us
+            CONTACT US
           </Button>
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu className={`gap-10 justify-center items-center max-h-[94vh] ${dark ? "bg-black" : ""}`}>
+      <NavbarMenu className={`gap-10 justify-center items-center max-h-[99vh] ${dark ? "bg-[#151515]" : ""}`}>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className={`w-full ${dark ? "text-white" : "text-black"} font-semibold text-2xl`}
+              className={`w-full ${dark ? "text-white" : "text-black"} font-medium text-2xl`}
               href={"#" + item}
               size="lg"
             >
@@ -117,16 +116,15 @@ const Nav = ({ dark, changeTheme }: any) => {
         ))}
 
         
-        <Button
+          <Button
             as={Link}
             href="#"
             variant="flat"
             radius="full"
-            className={`text-2xl p-6 border ${
-              dark ? "bg-white" : "bg-[#cfcfcf]"
-            }`}
+            className={`text-2xl border p-6 px-5 hover:bg-white ${
+              dark ? "bg-[#151515] text-[#99F94E] border-[#99F94E]" : "text-black"}`}
           >
-            Sponsor Us
+            CONTACT US
           </Button>
       </NavbarMenu>
     </Navbar>
