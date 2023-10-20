@@ -3,7 +3,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/sections/Hero";
 import Faqs from "@/sections/Faqs";
-import About from "@/components/About";
 import Abou from "@/components/Abou";
 import Abou1 from "@/components/Abou1";
 import Abou2 from "@/components/Abou2";
@@ -23,18 +22,19 @@ export default function Home() {
   // }
   const dark = true;
   return (
-    <main className="transition-all overflow-hidden">
+    <main className="transition-all bg-[#151515]">
+
       <Nav dark={dark}/>
 
-      <section id="Home" className="relative">
+      <section id="HOME" className="relative max-sm:py-3">
         <Hero dark={dark}/>
       </section>
 
-      <section id="About" className="bg-[#151515] min-h-screen flex justify-center pt-[5rem] relative">
+      <section className="bg-[#151515] min-h-screen flex justify-center sm:pt-[5rem] relative items-center max-sm:py-3">
         <AboutHelloWorld dark={dark}/>
       </section>
 
-      <section className="min-h-[100vh] sm:h-[100vh] bg-[#151515] flex w-full justify-center items-center relative">
+      <section id="ABOUT" className="min-h-[60vh] sm:h-[100vh] bg-[#151515] flex w-full justify-center items-center relative max-sm:py-3">
         <AboutGdsc />
         <div className="sm:w-[50%] hidden absolute mx-auto sm:top-0 top-[5rem] bg-[#99f94e] sm:flex justify-center items-center rounded-2xl">
           <h2 className="text-black text-[3vw] max-sm:text-[1.5rem] font-semibold font-poppins py-2 px-3">WHO ARE WE?</h2>
@@ -53,12 +53,15 @@ export default function Home() {
         <img src="/arrow.png" alt="" width={40}/>
       </div>
 
+    <section id="DOMAINS">
+      <Mobileab />
+      {/* <Mobileab />about for sm devices */}
+      <Speaker /> 
+      <Abou />
+      <Abou2 /> {/*All abou files are for md and lg devices */}
+      <Abou1 />
+    </section>
 
-    <Mobileab />{/*about for sm devices */}
-    <Speaker /> 
-    <Abou />
-    <Abou2 /> {/*All abou files are for md and lg devices */}
-    <Abou1 />
     <Guestspeaker />{/*responsive*/}
     <Scrolll />{/*responsive*/}
 

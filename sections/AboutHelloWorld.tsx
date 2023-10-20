@@ -2,8 +2,8 @@ import { Logo911 } from "@/components/logo";
 
 export const AboutHelloWorld = ({ dark }: any) => {
   return (
-    <main>
-      <div className="max-lg:hidden border border-[#99F94E] border-l-0 w-[90vw] relative h-[90vh] bg-[#1F1F1F] rounded-br-[45rem] rounded-tr-[5rem] rounded-l-[100rem] mb-24 flex justify-end pt-10">
+    <main className="max-xl:flex max-xl:justify-center max-xl:items-center">
+      <div className="max-xl:hidden border border-[#99F94E] border-l-0 w-[90vw] relative h-[90vh] bg-[#1F1F1F] rounded-br-[45rem] rounded-tr-[5rem] rounded-l-[100rem] mb-24 flex justify-end pt-10">
         <div className="text-white pt-5 w-[31em] font-poppins text-right pr-10">
           <h1 className="text-[5vw] font-semibold leading-[5.5vw]">
             <span className="text-[#636363] font-medium">What is</span> <br />
@@ -22,22 +22,29 @@ export const AboutHelloWorld = ({ dark }: any) => {
         <img
           src="/HeroImage.png"
           alt=""
-          className="absolute -rotate-[135deg] top-0 left-0 h-full z-10 max-lg:hidden"
+          className="absolute -rotate-[135deg] top-0 left-0 h-full z-10 max-xl:hidden"
         />
       </div>
-      <div className="lg:hidden border border-[#99f94e] w-[95vw] bg-[#1f1f1f] rounded-lg flex flex-col justify-center items-center">
-          <h1 className="text-[5vw] font-semibold leading-[5.5vw]">
-            <span className="text-[#636363] font-medium">What is</span> <br />
-            Hello World<span className="text-[#99f94e]">?</span>
-          </h1>
-      </div>
+        <div className="xl:hidden border border-[#99f94e] rounded-t-[12vw] rounded-b-[5vw] h-[90%] w-[90%] bg-[#1f1f1f] flex justify-center items-center flex-col max-xl:py-10">
+          <h2 className="xl:hidden text-[#99f94e] max-w-[85%] text-[2.2rem] md:text-[3rem] font-semibold font-poppins py-2 pb-5">
+            What is Hello World?
+          </h2>
+          <p className="text-white max-sm:text-[1.3rem] max-sm:text-left w-[85%] text-[2rem] max-lg:pt-10 text-justify max-sm:pt-10">
+            Hello World. Is an introductory course to various aspects of the
+            future for engineers, delving into important domains including
+            technology, design and entrepreneurship. It is an initiative by
+            Google Developer Student Clubs, MLRIT Chapter to provide an
+            opportunity for freshers to gain important exposure in the mentioned
+            domains.{" "}
+          </p>
+        </div>
       <svg
         width="50"
         height="50"
         viewBox="0 0 58 72"
         fill=""
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute bottom-[6rem] right-5 max-lg:hidden"
+        className="absolute bottom-[6rem] right-5 max-xl:hidden"
       >
         <path
           id="Union"

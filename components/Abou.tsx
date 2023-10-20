@@ -1,8 +1,8 @@
 import React from "react";
 const Abou = () => {
   return (
-    <div className="hidden md:flex md:flex-col md:min-h-screen  bg-black ">
-      <div className="md:flex md:flex-row w-full bg-black">
+    <div className="hidden md:flex md:flex-col md:min-h-screen  bg-[#151515] pt-[5rem]">
+      <div className="md:flex md:flex-row w-full bg-[#151515]">
         <div className="w-full flex flex-col pt-4">
           <div className=" h-auto p-6  pt-8 flex flex-row justify-start gap-4 pb-0 border-l-8 border-[rgb(140,254,62)]">
             <div className="leading-[75px] lg:leading-[100px] ">
@@ -35,7 +35,7 @@ const Abou = () => {
             </div>
           </div>
           <div className="flex flex-row justify-between  px-0 pl-5">
-            <div className="p-16 pr-0 ">
+            <div className="p-16 pr-0 flex flex-col justify-center">
               <div className="pb-4">
                 <span className="text-white text-start text-2xl lg:text-4xl font-normal font-['Google Sans'] leading-10">
                   What are{" "}
@@ -69,22 +69,22 @@ const Abou = () => {
               </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center pr-4 bg-black pb-8">
+            <div className="flex flex-col justify-center items-center pr-4 bg-[#151515] pb-8">
               {/* <img className="w-96 h-96 rounded-full bg-[#b7b7b7]" src="/dinesh.png" /> */}
               <img
                 className=" overflow-hidden h-80 w-100"
                 src="/Dine.png"
                 alt=""
               />
-              <div className="w-96 h-14 p-4 text-white text-center text-3xl lg:-4xl font-bold font-['Google Sans']">
+              <div className="w-96 h-14 p-4 text-white text-center text-3xl lg:text-4xl font-bold">
                 Dinesh Nalam
               </div>
               <div className="text-center  z-20 relative">
-                <span className="text-[rgb(140,254,62)] p-0 z-20 text-xl lg:text-2xl font-bold font-['Google Sans'] leading-10">
+                <span className="text-[rgb(140,254,62)] p-0 z-20 text-lg lg:text-xl font-semibold leading-10">
                   Lead, GDSC MLRIT
                   <br />
                 </span>
-                <span className="text-[rgb(235,235,235)] text-lg lg:text-xl font-normal font-['Google Sans'] leading-relaxed">
+                <span className="text-[rgb(235,235,235)] text-md lg:text-lg font-normal leading-3">
                   EY Scholarship Finalist
                   <br />
                   State Level Pitch Fest winner

@@ -13,10 +13,14 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/react";
 import { Logo911 } from "@/components/logo";
-import ThemeButton from "./ThemeButton";
 
 const Nav = ({ dark,}: any) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const Navbarclose = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
 
   const menuItems = ["HOME", "ABOUT", "DOMAINS"];
 
@@ -28,6 +32,8 @@ const Nav = ({ dark,}: any) => {
         dark ? "bg-[#151515] text-white" : "bg-white"
       } transition-all delay-150 py-4 px-7 max-sm:px-1`}
       height="5rem"
+      isMenuOpen = {isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
     >
       <NavbarContent>
 
@@ -37,13 +43,13 @@ const Nav = ({ dark,}: any) => {
           </Link>
 
           <NavbarContent
-            className="hidden md:flex gap-[4.5vw] font-normal text-white pl-[4.5rem]"
+            className="hidden sm:flex gap-[4.5vw] font-normal text-white pl-[4.5rem]"
             justify="center"
           >
             <NavbarItem>
               <Link
                 color="foreground"
-                href="#"
+                href="#HOME"
                 className={`text-[1.38rem] ${dark ? "text-white" : "text-black"}`}
               >
                 HOME
@@ -52,7 +58,7 @@ const Nav = ({ dark,}: any) => {
             <NavbarItem>
               <Link
                 color="foreground"
-                href="#"
+                href="#ABOUT"
                 className={`text-[1.38rem] ${dark ? "text-white" : "text-black"}`}
               >
                 ABOUT
@@ -61,7 +67,7 @@ const Nav = ({ dark,}: any) => {
             <NavbarItem>
               <Link
                 color="foreground"
-                href="#"
+                href="#DOMAINS"
                 className={`text-[1.38rem] ${dark ? "text-white" : "text-black"}`}
               >
                 DOMAINS
@@ -79,14 +85,14 @@ const Nav = ({ dark,}: any) => {
 
       <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="md:hidden"
+          className="sm:hidden"
       />
 
       
 
 
 
-      <NavbarContent justify="end" className="max-md:hidden">
+      <NavbarContent justify="end" className="max-sm:hidden">
         {/* <ThemeButton dark={dark} handleTheme={changeTheme}/> */}
         <NavbarItem>
           <Button
@@ -102,12 +108,13 @@ const Nav = ({ dark,}: any) => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu className={`gap-10 justify-center items-center max-h-[99vh] ${dark ? "bg-[#151515]" : ""}`}>
+      <NavbarMenu className={` gap-10 justify-center items-center max-h-[99vh] ${dark ? "bg-[#151515]" : ""}`}>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className={`w-full ${dark ? "text-white" : "text-black"} font-medium text-2xl`}
               href={"#" + item}
+              onPress={Navbarclose}
               size="lg"
             >
               {item}
