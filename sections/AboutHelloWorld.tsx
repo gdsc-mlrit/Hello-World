@@ -3,13 +3,13 @@ import { Logo911 } from "@/components/logo";
 export const AboutHelloWorld = ({ dark }: any) => {
   return (
     <main>
-      <div className="border border-[#99F94E] border-l-0 min-w-[90vw] relative h-[90vh] bg-[#1F1F1F] rounded-br-[45rem] rounded-tr-[5rem] rounded-l-[100rem] mb-24 flex justify-end pt-10">
+      <div className="max-lg:hidden border border-[#99F94E] border-l-0 w-[90vw] relative h-[90vh] bg-[#1F1F1F] rounded-br-[45rem] rounded-tr-[5rem] rounded-l-[100rem] mb-24 flex justify-end pt-10">
         <div className="text-white pt-5 w-[31em] font-poppins text-right pr-10">
-          <h1 className="text-7xl font-semibold leading-[5.5rem]">
+          <h1 className="text-[5vw] font-semibold leading-[5.5vw]">
             <span className="text-[#636363] font-medium">What is</span> <br />
             Hello World<span className="text-[#99f94e]">?</span>
           </h1>
-          <p className="text-xl pt-5 leading-9 text-justify">
+          <p className="text-[1.3vw] pt-[1.8vw] leading-9 text-justify">
             Hello World. Is an introductory course to various aspects of the
             future for engineers, delving into important domains including
             technology, design and entrepreneurship. It is an initiative by
@@ -22,8 +22,14 @@ export const AboutHelloWorld = ({ dark }: any) => {
         <img
           src="/HeroImage.png"
           alt=""
-          className="absolute -rotate-[135deg] top-0 left-0 h-full z-10 "
+          className="absolute -rotate-[135deg] top-0 left-0 h-full z-10 max-lg:hidden"
         />
+      </div>
+      <div className="lg:hidden border border-[#99f94e] w-[95vw] bg-[#1f1f1f] rounded-lg flex flex-col justify-center items-center">
+          <h1 className="text-[5vw] font-semibold leading-[5.5vw]">
+            <span className="text-[#636363] font-medium">What is</span> <br />
+            Hello World<span className="text-[#99f94e]">?</span>
+          </h1>
       </div>
       <svg
         width="50"
@@ -31,7 +37,7 @@ export const AboutHelloWorld = ({ dark }: any) => {
         viewBox="0 0 58 72"
         fill=""
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute bottom-[6rem] right-5"
+        className="absolute bottom-[6rem] right-5 max-lg:hidden"
       >
         <path
           id="Union"

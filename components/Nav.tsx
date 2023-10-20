@@ -15,7 +15,7 @@ import {
 import { Logo911 } from "@/components/logo";
 import ThemeButton from "./ThemeButton";
 
-const Nav = ({ dark, changeTheme }: any) => {
+const Nav = ({ dark,}: any) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = ["HOME", "ABOUT", "DOMAINS"];
@@ -26,7 +26,7 @@ const Nav = ({ dark, changeTheme }: any) => {
       maxWidth="full"
       className={`${
         dark ? "bg-[#151515] text-white" : "bg-white"
-      } transition-all delay-150 py-4 px-7`}
+      } transition-all delay-150 py-4 px-7 max-sm:px-1`}
       height="5rem"
     >
       <NavbarContent>
@@ -37,7 +37,7 @@ const Nav = ({ dark, changeTheme }: any) => {
           </Link>
 
           <NavbarContent
-            className="hidden md:flex gap-[4.5rem] font-normal text-white pl-[4.5rem]"
+            className="hidden md:flex gap-[4.5vw] font-normal text-white pl-[4.5rem]"
             justify="center"
           >
             <NavbarItem>
@@ -72,10 +72,10 @@ const Nav = ({ dark, changeTheme }: any) => {
 
       </NavbarContent>
 
-      <NavbarItem className="md:hidden">
+      {/* <NavbarItem className="md:hidden">
         <ThemeButton dark={dark} handleTheme={changeTheme}/>
       </NavbarItem>
-      
+       */}
 
       <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -87,7 +87,7 @@ const Nav = ({ dark, changeTheme }: any) => {
 
 
       <NavbarContent justify="end" className="max-md:hidden">
-        <ThemeButton dark={dark} handleTheme={changeTheme}/>
+        {/* <ThemeButton dark={dark} handleTheme={changeTheme}/> */}
         <NavbarItem>
           <Button
             as={Link}

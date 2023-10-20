@@ -5,12 +5,14 @@ const Hero = ({ dark }: any) => {
     <section
       className={`min-h-[90vh] ${
         dark ? "bg-[#151515] text-white" : "bg-white"
-      } bg-cover flex justify-start items-center w-full relative`}
+      } bg-cover flex justify-start items-center w-full relative h-full max-sm:bg-[url(/mobilebg.png)] max-sm:bg-cover`}
     >
-      <div className="max-sm:min-h-[75vh] max-sm:flex max-sm:flex-col max-sm:gap-[2rem] max-sm:justify-center md:max-w-[60%] pl-4 md:pl-[9rem]">
-        <h1 className="md:text-[12rem] sm:text-[9rem] font-semibold sm:leading-[9rem] md:leading-[12rem] text-[6rem] leading-[6rem] font-poppins pb-5">
+      <div className="max-sm:min-h-[75vh] max-sm:flex max-sm:flex-col max-sm:gap-[2rem] max-sm:justify-center md:max-w-[60%] pl-8 lg:pl-[9rem] md:justify-center md:items-center z-10 flex-1">
+        <h1 className="md:text-[12em] sm:text-[9rem] font-semibold sm:leading-[9rem] md:leading-[12rem] text-[6rem] leading-[6rem] font-poppins pb-5 z-10">
           Hello, <br />
-          <span>World<span className="text-[#99F94E] ">.</span></span>
+          <span>
+            World<span className="text-[#99F94E] ">.</span>
+          </span>
         </h1>
 
         <p className="sm:hidden font-semibold pt-5 text-[23px]">
@@ -24,19 +26,15 @@ const Hero = ({ dark }: any) => {
           <Tag icon="/tech.svg" name="TECHNOLOGY" />
         </div>
 
-        <p className="text-[1.8rem] pt-6 font-[500] max-sm:hidden sm:pl-3">
-          Dive into the emerging fields of {" "}
-          <span className={`text-[#99F94E]`}>
-            tomorrow
-          </span>
-          .
+        <p className="text-[1.8rem] pt-6 font-[500] max-sm:hidden sm:pl-3 w-full">
+          Dive into the emerging fields of{" "}
+          <span className={`text-[#99F94E]`}>tomorrow</span>.
         </p>
       </div>
 
-      <div className="max-w-[40%] absolute right-[4rem] top-5 max-sm:hidden">
+      <div className="min-w-[400px] w-[40%] absolute right-[4rem] top-[1.25vw] max-sm:hidden">
         <img src="/HeroImage.png" alt="globe" />
       </div>
-      
     </section>
   );
 };

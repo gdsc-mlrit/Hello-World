@@ -19,7 +19,27 @@ const config: Config = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         poppins: ['Poppins', 'sans-serif']
-      }
+      },
+      animation: {
+        // 'spin-slow': 'spin 1s ',
+        'bounce-slow':'bounce 2s','infinite-scroll': 'infinite-scroll 15s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(100%)' },
+          to: { transform: 'translateX(-100%)' },
+        },
+      },
+      
+      colors: {
+        primary: "#ECEEFF",
+        "limee":"rgba(140,254,62)",
+        "coral-red": "#FF6452",
+        "slate-gray": "#6D6D6D",
+        "pale-blue": "#F5F6FF",
+        "white-400": "rgba(255, 255, 255, 0.80)",
+        "card-bg": "#1F2937",
+      },
     },
   },
   darkMode: "class",
