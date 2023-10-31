@@ -1,6 +1,6 @@
 import { Logo911 } from "@/components/logo";
 
-export const AboutHelloWorld = ({ dark }: any) => {
+export const AboutHelloWorld2 = ({ dark }: any) => {
   return (
     <main className="max-xl:flex max-xl:justify-center max-xl:items-center">
       <div className="max-xl:hidden border border-[#99F94E] border-l-0 w-[90vw] relative h-[90vh] bg-[#1F1F1F] rounded-br-[45rem] rounded-tr-[5rem] rounded-l-[100rem] mb-24 flex justify-end pt-10">
@@ -22,7 +22,7 @@ export const AboutHelloWorld = ({ dark }: any) => {
         <img
           src="/HeroImage.png"
           alt=""
-          className="absolute -rotate-[135deg] top-0 left-0 h-full z-10 max-xl:hidden"
+          className="absolute -rotate-[135deg] top-0 left-0 h-full z-10"
         />
       </div>
       <div className="xl:hidden border border-[#99f94e] rounded-t-[12vw] rounded-b-[5vw] h-[90%] w-[90%] bg-[#1f1f1f] flex justify-center items-center flex-col max-xl:py-10">
