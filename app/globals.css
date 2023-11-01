@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+svg:hover {
+  fill: rgba(140, 254, 62);
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

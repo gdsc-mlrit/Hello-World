@@ -19,6 +19,8 @@ const config: Config = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        saira: ["Saira Extra Condensed", "sans-serif"],
+        londrina: ["Londrina Shadow", "sans-serif"],
       },
       animation: {
         // 'spin-slow': 'spin 1s ',

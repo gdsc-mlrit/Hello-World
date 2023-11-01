@@ -21,7 +21,7 @@ const Nav = ({ dark }: any) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const menuItems = ["HOME", "ABOUT", "DOMAINS"];
+  const menuItems = ["HOME", "ABOUT", "DOMAINS", "FAQS", "CONTACT US"];
 
   return (
     <Navbar
@@ -29,7 +29,7 @@ const Nav = ({ dark }: any) => {
       maxWidth="full"
       className={`${
         dark ? "bg-[#151515] text-white" : "bg-white"
-      } transition-all delay-150 px-12 max-sm:px-1`}
+      } transition-all delay-150 lg:py-2 px-12 max-sm:px-1`}
       height="5rem"
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
@@ -55,7 +55,7 @@ const Nav = ({ dark }: any) => {
           <Link
             color="foreground"
             href="#HOME"
-            className={`text-[1.38rem] hover:text-limee ${
+            className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
           >
@@ -66,7 +66,7 @@ const Nav = ({ dark }: any) => {
           <Link
             color="foreground"
             href="#ABOUT"
-            className={`text-[1.38rem] hover:text-limee ${
+            className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
           >
@@ -77,11 +77,33 @@ const Nav = ({ dark }: any) => {
           <Link
             color="foreground"
             href="#DOMAINS"
-            className={`text-[1.38rem] hover:text-limee ${
+            className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
           >
             DOMAINS
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            href="#FAQS"
+            className={`text-xl hover:text-limee ${
+              dark ? "text-white" : "text-black"
+            }`}
+          >
+            FAQS
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            href="#CONTACT US"
+            className={`text-xl hover:text-limee ${
+              dark ? "text-white" : "text-black"
+            }`}
+          >
+            CONTACT US
           </Link>
         </NavbarItem>
       </NavbarContent>
@@ -96,7 +118,7 @@ const Nav = ({ dark }: any) => {
         <NavbarItem>
           <Button
             as={Link}
-            href="#"
+            href="/sponsorus"
             variant="flat"
             radius="full"
             className={`text-xl border p-6 px-5 hover:bg-limee hover:text-black ${
@@ -105,7 +127,7 @@ const Nav = ({ dark }: any) => {
                 : "text-black"
             }`}
           >
-            CONTACT US
+            SPONSOR US
           </Button>
         </NavbarItem>
       </NavbarContent>
@@ -120,10 +142,10 @@ const Nav = ({ dark }: any) => {
             <Link
               className={`w-full ${
                 dark ? "text-white" : "text-black"
-              } font-medium text-2xl`}
+              } font-medium text-xl`}
               href={"#" + item}
               onPress={Navbarclose}
-              size="lg"
+              size="md"
             >
               {item}
             </Link>
@@ -132,14 +154,12 @@ const Nav = ({ dark }: any) => {
 
         <Button
           as={Link}
-          href="#"
+          href="/sponsorus"
           variant="flat"
           radius="full"
-          className={`text-2xl border p-6 px-5 hover:bg-white ${
-            dark ? "bg-[#151515] text-[#99F94E] border-[#99F94E]" : "text-black"
-          }`}
+          className={`text-2xl border p-6 px-5 hover:bg-limee hover:text-black bg-[#151515] text-[#99F94E] border-[#99F94E]}`}
         >
-          CONTACT US
+          SPONSOR US
         </Button>
       </NavbarMenu>
     </Navbar>

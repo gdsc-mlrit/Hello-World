@@ -2,21 +2,17 @@
 
 import Nav from "@/components/Nav";
 import Faqs from "@/sections/Faqs";
-import Abou from "@/components/Abou";
-import Abou1 from "@/components/Abou1";
-import Abou2 from "@/components/Abou2";
 import Mobileab from "@/components/Mobileab";
 import Speaker from "@/components/Speaker";
 import Guestspeaker from "@/components/Guestspeaker";
 import Scrolll from "@/components/Scrolll";
 import { AboutHelloWorld } from "@/sections/AboutHelloWorld";
-import { AboutHelloWorld2 } from "@/sections/AboutHelloWorld2";
 import AboutGdsc2 from "@/sections/AboutGdsc2";
 import Hero2 from "@/sections/Hero2";
-import AboutNew from "@/components/Dinesh";
 import Dinesh from "@/components/Dinesh";
 import Adithya from "@/components/Adithya";
 import Sherlock from "@/components/Sherlock";
+import Footer from "@/sections/Footer";
 
 export default function Home() {
   const dark = true;
@@ -28,13 +24,12 @@ export default function Home() {
         <Hero2 />
       </section>
 
-      <section className="bg-[#151515] min-h-screen flex justify-center sm:pt-[5rem] relative items-center max-sm:py-3">
+      <section
+        id="ABOUT"
+        className="bg-[#151515] min-h-screen flex justify-center sm:pt-[5rem] relative items-center max-sm:py-3"
+      >
         <AboutHelloWorld dark={dark} />
       </section>
-
-      {/* <section className="bg-[#151515]">
-        <AboutHelloWorld2 dark={dark} />
-      </section> */}
 
       <section className="py-[10rem] flex justify-center">
         <AboutGdsc2 />
@@ -51,37 +46,43 @@ export default function Home() {
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
 
-      <section className="flex justify-center my-10 mt-24">
+      <section id="DOMAINS" className="flex justify-center my-10 mt-24">
         <Dinesh />
       </section>
 
-      <section className="flex justify-center my-10">
+      <section className="flex justify-center my-20">
         <Sherlock />
       </section>
 
-      <section className="flex justify-center my-10">
+      <section className="flex justify-center my-20">
         <Adithya />
       </section>
 
-      <div className="w-full h-[2rem] bg-[#99f94e]"></div>
+      <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
 
-      <section id="DOMAINS">
+      <section>
         <Mobileab />
-        {/* <Mobileab />about for sm devices */}
         <Speaker />
       </section>
 
-      <Guestspeaker />
-      {/*responsive*/}
-      <Scrolll />
-      {/*responsive*/}
+      <section className="pt-10">
+        <Guestspeaker />
+      </section>
 
-      {/* <About />
+      <section className="pt-10">
+        <Scrolll />
+      </section>
 
-      <section className="bg-white min-h-screen bg[url(/bgImage.png)] bg-cover"></section>
-      <section className="min-h-screen"></section>
+      <section id="FAQS" className="flex justify-center pt-10">
+        <Faqs />
+      </section>
 
-      <Faqs/> */}
+      <footer
+        id="CONTACT US"
+        className="w-full border-t border-limee bg-[#1f1f1f] flex justify-center mt-[5rem]"
+      >
+        <Footer />
+      </footer>
     </main>
   );
 }
