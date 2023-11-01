@@ -46,15 +46,18 @@ export default function Home() {
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
 
-      <section id="DOMAINS" className="flex justify-center my-10 mt-24">
+      <section
+        id="DOMAINS"
+        className="flex justify-center my-10 mt-24 max-sm:hidden"
+      >
         <Dinesh />
       </section>
 
-      <section className="flex justify-center my-20">
+      <section className="flex justify-center my-20 max-sm:hidden">
         <Sherlock />
       </section>
 
-      <section className="flex justify-center my-20">
+      <section className="flex justify-center my-20 max-sm:hidden">
         <Adithya />
       </section>
 
