@@ -36,7 +36,7 @@ const Nav = ({ dark }: any) => {
     >
       <NavbarContent className="flex justify-between">
         <NavbarBrand className="h-[40px]">
-          <Link href="#Home" className="text-limee">
+          <Link href="/" className="text-limee">
             <Logo911 h="35" w="35" />
           </Link>
         </NavbarBrand>
@@ -54,7 +54,7 @@ const Nav = ({ dark }: any) => {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#HOME"
+            href="/#HOME"
             className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
@@ -65,7 +65,7 @@ const Nav = ({ dark }: any) => {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#ABOUT"
+            href="/#ABOUT"
             className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
@@ -76,7 +76,7 @@ const Nav = ({ dark }: any) => {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#DOMAINS"
+            href="/#DOMAINS"
             className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
@@ -98,7 +98,7 @@ const Nav = ({ dark }: any) => {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#CONTACT US"
+            href="/#CONTACT US"
             className={`text-xl hover:text-limee ${
               dark ? "text-white" : "text-black"
             }`}
@@ -143,7 +143,7 @@ const Nav = ({ dark }: any) => {
               className={`w-full ${
                 dark ? "text-white" : "text-black"
               } font-medium text-xl`}
-              href={"#" + item}
+              href={"/#" + item}
               onPress={Navbarclose}
               size="md"
             >
