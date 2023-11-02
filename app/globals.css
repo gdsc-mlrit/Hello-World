@@ -6,10 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-svg:hover {
-  fill: rgba(140, 254, 62);
-}
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

@@ -13,7 +13,8 @@ const Faqs = () => {
         className="text-white rounded-lg p-5"
       >
         <AccordionItem
-          className="bg-[#1f1f1f] p-2"
+          style={{ backgroundColor: "#1f1f1f" }}
+          className="p-2 "
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               When is Hello World?
@@ -25,7 +26,8 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
-          className="bg-[#1f1f1f] p-2"
+          style={{ backgroundColor: "#1f1f1f" }}
+          className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               Are there any specific requirements or qualifications to
@@ -40,7 +42,8 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
-          className="bg-[#1f1f1f] p-2"
+          style={{ backgroundColor: "#1f1f1f" }}
+          className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               Are there any opportunities for students to collaborate with tech
@@ -55,7 +58,8 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
-          className="bg-[#1f1f1f] p-2"
+          style={{ backgroundColor: "#1f1f1f" }}
+          className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               How can students stay updated with the latest news and
@@ -71,14 +75,15 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
-          className="bg-[#1f1f1f] p-2"
+          style={{ backgroundColor: "#1f1f1f" }}
+          className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               What do you attain from participating?
             </p>
           }
         >
-          <p className="sm:text-lg text-md">
+          <p className="sm:text-lg text-md personal-class">
             {" "}
             Involving with a large zealous crowd(2000 approx) from various
             backgrounds along with a multi-cohort.
@@ -89,7 +94,8 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
-          className="bg-[#1f1f1f] p-2"
+          style={{ backgroundColor: "#1f1f1f" }}
+          className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               Finally, is it worth the hype?
