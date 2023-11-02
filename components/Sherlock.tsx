@@ -8,7 +8,7 @@ const Sherlock = () => {
         </h1>
         <img
           src="/gray_design.svg"
-          alt=""
+          alt="design logo"
           className="absolute top-0 left-0 lg:w-[240px] w-[180px] translate-x-[180%]"
         />
       </div>
@@ -21,7 +21,11 @@ const Sherlock = () => {
           <p>Intro to UI/UX Design</p>
         </div>
         <div className="flex flex-col justify-center items-center text-white relative pl-[6rem] translate-y-[-22%]">
-          <img src="/sherlock.png" alt="" className="lg:w-[250px] w-[180px]" />
+          <img
+            src="/Sherlock.png"
+            alt="sherlock"
+            className="lg:w-[250px] w-[180px]"
+          />
           <h2 className="lg:text-4xl text-3xl font-bold">Sri Nikhil</h2>
           <h3 className="lg:text-xl text-lg font-semibold text-limee">
             Design Lead, GDSC MLRIT

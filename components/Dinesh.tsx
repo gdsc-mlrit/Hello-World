@@ -8,7 +8,7 @@ const Dinesh = () => {
         </h1>
         <img
           src="/gray_roc.svg"
-          alt=""
+          alt="startup logo"
           className="absolute top-0 left-0 lg:w-[240px] w-[180px] translate-x-[180%]"
         />
       </div>
@@ -21,7 +21,11 @@ const Dinesh = () => {
           <p>How to get startup ideas?</p>
         </div>
         <div className="flex flex-col justify-center items-center text-white relative pr-[6rem] translate-y-[-22%]">
-          <img src="/Dine.png" alt="" className="lg:w-[250px] w-[180px]" />
+          <img
+            src="/Dine.png"
+            alt="Dinesh"
+            className="lg:w-[250px] w-[180px]"
+          />
           <h2 className="lg:text-4xl text-3xl font-bold">Dinesh Nalam</h2>
           <h3 className="lg:text-xl text-lg font-semibold text-limee">
             Lead, GDSC MLRIT
