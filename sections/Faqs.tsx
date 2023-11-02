@@ -8,11 +8,12 @@ const Faqs = () => {
         Questions? Look here
       </h1>
       <Accordion
+        variant="splitted"
         showDivider={true}
-        className="text-white bg-[#1f1f1f] rounded-lg p-5"
+        className="text-white rounded-lg p-5"
       >
         <AccordionItem
-          className="bg-[#1f1f1f]"
+          className="bg-[#1f1f1f] p-2"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               When is Hello World?
@@ -24,6 +25,7 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
+          className="bg-[#1f1f1f] p-2"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               Are there any specific requirements or qualifications to
@@ -38,6 +40,7 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
+          className="bg-[#1f1f1f] p-2"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               Are there any opportunities for students to collaborate with tech
@@ -52,6 +55,7 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
+          className="bg-[#1f1f1f] p-2"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               How can students stay updated with the latest news and
@@ -67,6 +71,7 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
+          className="bg-[#1f1f1f] p-2"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               What do you attain from participating?
@@ -84,6 +89,7 @@ const Faqs = () => {
           </p>
         </AccordionItem>
         <AccordionItem
+          className="bg-[#1f1f1f] p-2"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
               Finally, is it worth the hype?
