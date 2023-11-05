@@ -22,7 +22,7 @@ const Adithya = () => {
         </div>
         <div className="flex flex-col justify-center items-center text-white relative pr-[6rem] translate-y-[-22%]">
           <img
-            src="/Reaper.png"
+            src="/profiles/Reaper.png"
             alt="reaper"
             className="lg:w-[250px] w-[180px]"
           />

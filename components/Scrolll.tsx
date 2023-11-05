@@ -10,7 +10,25 @@ const Scrolll = () => {
           </h1>
         </div>
 
-        <div className=" w-full flex-nowrap py-16 flex overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+        <div className="flex md:w-[75%] w-full px-5 gap-5 py-12 justify-between">
+          <img
+            src="/Part1.png"
+            className="lg:w-[12rem] lg:h-[12rem] md:w-[9rem] md:h-[9rem] w-[5rem] h-[5rem]"
+            alt=""
+          />
+          <img
+            src="/Part2.png"
+            className="lg:w-[12rem] lg:h-[12rem] md:w-[9rem] md:h-[9rem] w-[5rem] h-[5rem]"
+            alt=""
+          />
+          <div className="flex flex-col justify-center items-start">
+            <img src="/THE.png" className="w-[14rem]" alt="" />
+            <img src="Part3.png" className="w-[15rem]" alt="" />
+            <img src="LEAGUE.png" className="w-[14rem]" alt="" />
+          </div>
+        </div>
+
+        {/* <div className=" w-full flex-nowrap py-16 flex overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
           <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
             <li className="px-8">
               <img
@@ -116,7 +134,7 @@ const Scrolll = () => {
               </div>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ const Sherlock = () => {
         </div>
         <div className="flex flex-col justify-center items-center text-white relative pl-[6rem] translate-y-[-22%]">
           <img
-            src="/Sherlock.png"
+            src="/profiles/Sherlock.png"
             alt="sherlock"
             className="lg:w-[250px] w-[180px]"
           />

@@ -22,7 +22,7 @@ const Dinesh = () => {
         </div>
         <div className="flex flex-col justify-center items-center text-white relative pr-[6rem] translate-y-[-22%]">
           <img
-            src="/Dine.png"
+            src="/profiles/Dine.png"
             alt="Dinesh"
             className="lg:w-[250px] w-[180px]"
           />

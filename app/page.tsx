@@ -13,6 +13,9 @@ import Dinesh from "@/components/Dinesh";
 import Adithya from "@/components/Adithya";
 import Sherlock from "@/components/Sherlock";
 import Footer from "@/sections/Footer";
+import Socials from "@/components/Socials";
+import Team from "@/sections/Team";
+import TeamMobile from "@/sections/TeamMobile";
 
 export default function Home() {
   const dark = true;
@@ -31,18 +34,28 @@ export default function Home() {
         <AboutHelloWorld dark={dark} />
       </section>
 
+      <section className="w-full flex items-center justify-center">
+        <div className="lg:w-[75%] w-[85%] flex flex-col items-start">
+          <h1 className="lg:text-[5rem] md:text-[4rem] md:leading-[4rem] text-[3rem] leading-[3rem] font-semibold lg:leading-[5.5rem] text-limee">
+            Competition
+          </h1>
+          <p className="text-[#dcdcdc] lg:text-2xl text-xl pt-5 lg:w-[75%]">
+            "Embark on a two-fold adventure – share your learning journey on
+            social media and build everything from ideation presentations to
+            deployable projects in 30 days. Participation is optional,
+            highlighting exploration over obligation. Projects will be assessed
+            for consistency, feasibility, and usability, with the top 20 teams
+            celebrated for their innovative contributions at the dynamic
+            intersection of learning and creativity. Join us in this enriching
+            journey where knowledge meets imagination and unleash your
+            creativity today!"
+          </p>
+        </div>
+      </section>
+
       <section className="py-[10rem] flex justify-center">
         <AboutGdsc2 />
       </section>
-
-      {/* <section className="sm:h-[110vh] min-h-[60vh] w-full relative flex justify-center items-center bg-[#151515] max-sm:pb-[6rem]">
-        <h1 className="text-[12vw] text-white font-poppins font-semibold z-[10]">
-          Explore <span className="text-[#99f94e]">Life</span>.
-        </h1>
-        <div className="absolute m-auto w-[35%] ">
-          <img src="/Layer_1.png" alt="" />
-        </div>
-      </section> */}
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
 
@@ -76,15 +89,26 @@ export default function Home() {
         <Scrolll />
       </section>
 
-      <section id="FAQS" className="flex justify-center pt-10">
+      <section className="pt-24 lg:pt-[10rem] flex flex-col justify-center items-center">
+        <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold">
+          Meet the team
+        </h1>
+        <div className="pt-10 flex justify-center">
+          <Team />
+          <TeamMobile />
+        </div>
+      </section>
+
+      <section id="FAQS" className="flex justify-center pt-10 lg:pt-[10rem]">
         <Faqs />
       </section>
 
       <footer
         id="CONTACT US"
-        className="w-full border-t border-limee bg-[#1f1f1f] flex justify-center mt-[5rem]"
+        className="w-full border-t border-limee bg-[#1f1f1f] flex flex-col items-center mt-[5rem]"
       >
         <Footer />
+        <Socials />
       </footer>
     </main>
   );

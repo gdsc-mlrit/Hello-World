@@ -11,21 +11,20 @@ const page = () => {
             SPONSPORSHIP
           </p>
         </div>
-        <div className="sm:px-8 md:px-12 lg:px-20  flex flex-row justify-center p-4">
-          <p className="text-[#78818c] text-[20px] md:text-[35px] lg:text-[40px] text-left">
-            <span className="font-semibold text-white">
-              Hello World brings together{" "}
-            </span>{" "}
-            the world’s developers, enterprise leaders, and security
-            professionals with interactive sessions on Startups, Design, and the
-            Tech experience. Come for the learning, stay for the fun.
-            <span className="font-semibold text-white">
-              {" "}
-              We’ll see you there!
-            </span>
+        <div className="sm:px-8 md:px-12 lg:px-20  flex flex-row justify-center p-4 lg:w-[85%]">
+          <p className="text-[#78818c] text-[20px] md:text-[35px] lg:text-[34px] text-left">
+            Sponsor 'Hello World' with GDSC MLRIT, and be the driving force
+            behind a groundbreaking initiative. As we delve into the vital
+            domains of technology, design, and entrepreneurship, you'll not only
+            ignite the passion of tomorrow's innovators but also connect with
+            the brightest freshers, providing them with the crucial exposure
+            they need. Elevate your brand as a forward-thinking industry leader
+            and invest in the future of technology and innovation. Join us and
+            unlock opportunities for your business while shaping the next
+            generation of tech leaders.
           </p>
         </div>
-        <div className="flex flex-row felx-wrap">
+        <div className="flex flex-row felx-wrap py-10">
           <p className="text-[#78818c] text-[15px] md:text-[25px] lg:text-[30px]">
             {"To know more details "}
             <a
@@ -55,16 +54,8 @@ const page = () => {
               speakers
             </span>
           </div>
-          <div className="flex flex-col items-start px-4  md:px-12 lg:px-20">
-            <p className="font-semibold text-white text-left text-[20px] md:text-[35px] lg:text-[40px]">
-              1,000+
-            </p>
-            <span className="text-[#78818c] text-[10px] text-left md:text-[25px] lg:text-[30px]">
-              attendees
-            </span>
-          </div>
         </div>
-        <div className="flex flex-row felx-wrap pb-2">
+        {/* <div className="flex flex-row felx-wrap pb-2">
           <p className="text-[#78818c] text-[15px] md:text-[25px] lg:text-[30px]">
             {"mail us "}
             <a
@@ -76,8 +67,8 @@ const page = () => {
               {"here"}
             </a>
           </p>
-        </div>
-        <div className="p-4">
+        </div> */}
+        <div className="p-4 py-10">
           <a href="">
             <button className=" transition-all duration-300 ease-in-out hover:scale-110 bg-transparent border border-limee text-xl text-limee py-4 px-4">
               BECOME A SPONSOR

@@ -17,7 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-[#151515] overflow-x-hidden">
+    <html
+      lang="en"
+      className="bg-[#151515] overflow-x-hidden"
+      suppressHydrationWarning={true}
+    >
       <Providers>
         <body className={`xl:flex xl:justify-center bg-[#151515]`}>
           {children}
