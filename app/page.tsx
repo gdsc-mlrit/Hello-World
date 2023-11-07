@@ -5,7 +5,7 @@ import Faqs from "@/sections/Faqs";
 import Mobileab from "@/components/Mobileab";
 import Speaker from "@/components/Speaker";
 import Guestspeaker from "@/components/Guestspeaker";
-import Scrolll from "@/components/Scrolll";
+import Scrolll from "@/components/Sponsors";
 import { AboutHelloWorld } from "@/sections/AboutHelloWorld";
 import AboutGdsc2 from "@/sections/AboutGdsc2";
 import Hero2 from "@/sections/Hero2";

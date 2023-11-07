@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.gold {
+  color: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

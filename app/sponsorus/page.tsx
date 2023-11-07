@@ -69,7 +69,7 @@ const page = () => {
           </p>
         </div> */}
         <div className="p-4 py-10">
-          <a href="">
+          <a href="https://forms.gle/6NJuthCbcMCnTZSM7">
             <button className=" transition-all duration-300 ease-in-out hover:scale-110 bg-transparent border border-limee text-xl text-limee py-4 px-4">
               BECOME A SPONSOR
             </button>
