@@ -42,7 +42,7 @@ const Sponsors = () => {
           <a
             href="https://beeceptor.com/?utm_source=gdsc"
             target="_blank"
-            className="flex items-center"
+            className="flex items-center p-5"
           >
             <img src="beer.svg" alt="" className="w-[22rem]" />
           </a>
@@ -56,7 +56,7 @@ const Sponsors = () => {
             target="_blank"
             className="flex items-center"
           >
-            <img src="wolfram.png" alt="" className="w-[22rem]" />
+            <img src="wolfram2.png" alt="" className="w-[22rem]" />
           </a>
         </div>
 
