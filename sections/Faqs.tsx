@@ -3,7 +3,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 
 const Faqs = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-5 px-6 pt-6 md:w-[75%] w-full">
+    <div className="flex flex-col justify-center items-center gap-5 md:px-6 pt-6 md:w-[75%] w-full">
       <h1 className="lg:text-[4rem] md:text-[3rem] text-[2rem] pb-10 font-bold text-limee">
         Questions? Look here
       </h1>
@@ -30,8 +30,7 @@ const Faqs = () => {
           className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
-              Are there any specific requirements or qualifications to
-              participate in 'Hello World'
+              Any requirements to participate in 'Hello World'?
             </p>
           }
         >
@@ -46,8 +45,7 @@ const Faqs = () => {
           className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
-              Are there any opportunities for students to collaborate with tech
-              professionals & mentors?
+              Can students collaborate with tech professionals?
             </p>
           }
         >
@@ -62,8 +60,7 @@ const Faqs = () => {
           className="bg-[#1f1f1f] p-2 personal-class"
           title={
             <p className="text-semibold text-white lg:text-2xl md:text-xl text-lg">
-              How can students stay updated with the latest news and
-              announcements about 'Hello World'?
+              How to stay updated on 'Hello World'?
             </p>
           }
         >

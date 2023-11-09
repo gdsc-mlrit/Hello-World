@@ -5,7 +5,7 @@ import Faqs from "@/sections/Faqs";
 import Mobileab from "@/components/Mobileab";
 import Speaker from "@/components/Speaker";
 import Guestspeaker from "@/components/Guestspeaker";
-import Scrolll from "@/components/Sponsors";
+import Sponsors from "@/components/Sponsors";
 import { AboutHelloWorld } from "@/sections/AboutHelloWorld";
 import AboutGdsc2 from "@/sections/AboutGdsc2";
 import Hero2 from "@/sections/Hero2";
@@ -16,6 +16,7 @@ import Footer from "@/sections/Footer";
 import Socials from "@/components/Socials";
 import Team from "@/sections/Team";
 import TeamMobile from "@/sections/TeamMobile";
+import { AboutHelloWorld2 } from "@/sections/AboutHelloWorld2";
 
 export default function Home() {
   const dark = true;
@@ -29,12 +30,16 @@ export default function Home() {
 
       <section
         id="ABOUT"
-        className="bg-[#151515] flex justify-center sm:pt-[5rem] relative items-center max-sm:py-3"
+        className="bg-[#151515] sm:pt-[5rem] relative max-sm:py-3"
       >
         <AboutHelloWorld dark={dark} />
       </section>
 
-      <section className="w-full flex items-center justify-center pt-[10rem]">
+      {/* <section>
+        <AboutHelloWorld2 />
+      </section> */}
+
+      {/* <section className="w-full flex items-center justify-center pt-[10rem]">
         <div className="lg:w-[75%] w-[90%] bg-[#1f1f1f] flex items-center border border-limee lg:p-20 p-5 md:p-14 md:rounded-[5rem] rounded-3xl">
           <div className="flex flex-col items-center">
             <h1 className="lg:text-[5rem] md:text-[4rem] md:leading-[4rem] text-[3rem] leading-[3rem] font-semibold lg:leading-[5.5rem] max-md:p-3 text-limee">
@@ -58,7 +63,7 @@ export default function Home() {
             className="h-48 px-10 max-lg:hidden"
           />
         </div>
-      </section>
+      </section> */}
 
       <section className="py-[10rem] flex justify-center">
         <AboutGdsc2 />
@@ -88,12 +93,14 @@ export default function Home() {
         <Speaker />
       </section>
 
+      <div className="md:hidden h-2 bg-limee w-full mt-10"></div>
+
       <section className="pt-10">
         <Guestspeaker />
       </section>
 
       <section className="pt-10">
-        <Scrolll />
+        <Sponsors />
       </section>
 
       <section className="pt-24 lg:pt-[10rem] flex flex-col justify-center items-center">

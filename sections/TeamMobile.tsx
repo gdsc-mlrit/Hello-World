@@ -24,6 +24,7 @@ const TeamMobile = () => {
     <div className="sm:hidden min-h-screen flex flex-wrap justify-center items-center bg-[#151515] gap-5">
       {images.map((element) => (
         <IdTagMobile
+          key={element.name}
           image={`/profiles/${element.id}.png`}
           tag={element.tag}
           name={element.name}

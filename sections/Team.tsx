@@ -7,7 +7,6 @@ const images = [
   { id: "Sherlock", name: "Nikhil", tag: "Design Lead" },
   { id: "Aditya2", name: "Adithya Vardhan", tag: "Core Member" },
   { id: "Moiz", name: "Moizuddin", tag: "Core Member" },
-  { id: "Aditya2", name: "Adithya", tag: "Core Member" },
   { id: "sanjana", name: "Sanjana", tag: "Core Member" },
   { id: "Eswar", name: "Eshvvar", tag: "Core Member" },
   { id: "Abhiram", name: "Abhiram", tag: "Core Member" },
@@ -26,6 +25,7 @@ const Team = () => {
     <div className="max-sm:hidden lg:w-[75%] min-h-screen flex flex-wrap justify-center items-center bg-[#151515] gap-5">
       {images.map((element) => (
         <IdTag
+          key={element.name}
           image={`/profiles/${element.id}.png`}
           tag={element.tag}
           name={element.name}

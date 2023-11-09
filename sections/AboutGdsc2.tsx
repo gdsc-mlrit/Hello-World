@@ -8,7 +8,7 @@ const AboutGdsc2 = () => {
       </h2>
       <div className="flex flex-col justify-center w-[75%] gap-10 sm:py-[5rem] sm:pt-[7rem] py-[2rem]">
         <img src="/gdsclogo.png" alt="" className="sm:py-5 pt-4" />
-        <p className="text-white sm:text-2xl text-md text-justify">
+        <p className="text-white sm:text-2xl md:text-justify">
           GDSC, a global Google endeavor, nurtures an exuberant worldwide
           community of budding student developers. Spearheaded by students
           themselves, GDSCs provide a dedicated haven for passionate learning

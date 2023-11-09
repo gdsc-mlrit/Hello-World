@@ -12,7 +12,7 @@ const Socials = () => {
         >
           <img src="/small_icons/insta.svg" className="sm:h-6 h-4" alt="" />
         </a>
-        <a href="#">
+        <a href="https://discord.gg/h6VbvcGHS">
           <img src="/small_icons/discord.svg" className="sm:h-6 h-4" alt="" />
         </a>
       </div>
