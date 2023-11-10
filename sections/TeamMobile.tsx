@@ -5,7 +5,6 @@ const images = [
   { id: "Sherlock", name: "Nikhil", tag: "Design Lead" },
   { id: "Aditya2", name: "Adithya Vardhan", tag: "Core Member" },
   { id: "Moiz", name: "Moizuddin", tag: "Core Member" },
-  { id: "Aditya2", name: "Adithya", tag: "Core Member" },
   { id: "sanjana", name: "Sanjana", tag: "Core Member" },
   { id: "Eswar", name: "Eshvvar", tag: "Core Member" },
   { id: "Abhiram", name: "Abhiram", tag: "Core Member" },
