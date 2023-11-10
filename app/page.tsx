@@ -71,26 +71,25 @@ export default function Home() {
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
 
-      <section
-        id="DOMAINS"
-        className="flex justify-center my-10 mt-24 max-sm:hidden"
-      >
-        <Dinesh />
-      </section>
+      <section id="DOMAINS">
+        <section className="flex justify-center my-10 mt-24 max-sm:hidden">
+          <Dinesh />
+        </section>
 
-      <section className="flex justify-center my-20 max-sm:hidden">
-        <Sherlock />
-      </section>
+        <section className="flex justify-center my-20 max-sm:hidden">
+          <Sherlock />
+        </section>
 
-      <section className="flex justify-center my-20 max-sm:hidden">
-        <Adithya />
-      </section>
+        <section className="flex justify-center my-20 max-sm:hidden">
+          <Adithya />
+        </section>
 
-      <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
+        <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
 
-      <section>
-        <Mobileab />
-        <Speaker />
+        <section>
+          <Mobileab />
+          <Speaker />
+        </section>
       </section>
 
       <div className="md:hidden h-2 bg-limee w-full mt-10"></div>
