@@ -26,7 +26,7 @@ const Sponsors = () => {
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem]  text-white  font-semibold lg:pl-3">
               Gold Partner
             </h2>
-            <div className="flex flex-wrap gap-10 w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f]">
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f]">
               <a href="https://www.jdoodle.com/" target="_blank" className="">
                 <img
                   src="/JD_logo.png"
@@ -41,7 +41,7 @@ const Sponsors = () => {
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
               Bronze Partner
             </h2>
-            <div className="flex flex-wrap gap-10 w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
               <a
                 href="https://beeceptor.com/?utm_source=gdsc"
                 target="_blank"
@@ -68,7 +68,7 @@ const Sponsors = () => {
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
               Knowledge Partner
             </h2>
-            <div className="flex flex-wrap gap-10 w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
               <a href="https://cie.iiit.ac.in/" target="_blank">
                 <img src="IIIT-CIE-Logo.png" alt="" className="w-[22rem]" />
               </a>
