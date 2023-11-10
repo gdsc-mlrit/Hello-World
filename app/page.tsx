@@ -16,7 +16,6 @@ import Footer from "@/sections/Footer";
 import Socials from "@/components/Socials";
 import Team from "@/sections/Team";
 import TeamMobile from "@/sections/TeamMobile";
-import { AboutHelloWorld2 } from "@/sections/AboutHelloWorld2";
 
 export default function Home() {
   const dark = true;

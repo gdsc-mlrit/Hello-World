@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsors = () => {
   return (
-    <div className=" w-full px-6 bg-[#151515] py-10 md:pt-[150px]">
+    <div className=" w-full px-6 bg-[#151515] py-10 ">
       <div className="text-center h-auto flex flex-col items-center m-auto">
         <div>
           <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold mb-10">
