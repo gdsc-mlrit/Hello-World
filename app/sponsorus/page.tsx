@@ -12,18 +12,22 @@ const page = () => {
           </p>
         </div>
         <div className="sm:px-8 md:px-12 lg:px-20  flex flex-row justify-center p-4 lg:w-[85%]">
-          <p className="text-[#78818c] text-[20px] md:text-[35px] lg:text-[34px] text-left">
+          <p className="text-[#78818c] text-[20px] md:text-[35px] lg:text-[34px] sm:text-center">
             <span className="text-white">
               Sponsor 'Hello World' with GDSC MLRIT,
             </span>{" "}
             and be the driving force behind a groundbreaking initiative. As we
             delve into the vital domains of technology, design, and
             entrepreneurship, you'll not only ignite the passion of tomorrow's
-            innovators but also <span>connect with the brightest freshers</span>
-            , providing them with the crucial exposure they need. Elevate your
-            brand as a forward-thinking industry leader and invest in the future
-            of technology and innovation. Join us and unlock opportunities for
-            your business while shaping the next generation of tech leaders.
+            innovators but also{" "}
+            <span className="text-white">
+              connect with the brightest freshers
+            </span>
+            , providing them with the crucial exposure they need.{" "}
+            <span className="text-white">Elevate your brand</span> as a
+            forward-thinking industry leader and invest in the future of
+            technology and innovation. Join us and unlock opportunities for your
+            business while shaping the next generation of tech leaders.
           </p>
         </div>
         <div className="flex flex-row felx-wrap py-10">

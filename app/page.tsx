@@ -2,7 +2,6 @@
 
 import Nav from "@/components/Nav";
 import Faqs from "@/sections/Faqs";
-import Mobileab from "@/components/Mobileab";
 import Speaker from "@/components/Speaker";
 import Guestspeaker from "@/components/Guestspeaker";
 import Sponsors from "@/components/Sponsors";
@@ -16,6 +15,7 @@ import Footer from "@/sections/Footer";
 import Socials from "@/components/Socials";
 import Team from "@/sections/Team";
 import TeamMobile from "@/sections/TeamMobile";
+import DomainsMobile from "@/sections/DomainsMobile";
 
 export default function Home() {
   const dark = true;
@@ -85,8 +85,8 @@ export default function Home() {
 
         <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
 
-        <section>
-          <Mobileab />
+        <section className="sm:hidden">
+          <DomainsMobile />
           <Speaker />
         </section>
       </section>

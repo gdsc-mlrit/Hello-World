@@ -1,7 +1,7 @@
 <svg
                 className="lg:h-[333px] h-[150px]"
                 viewBox="0 0 335 335"
-                fill="none"
+                fill="#f4f4f4"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -11,5 +11,6 @@
                   strokeWidth="23.9231"
                   strokeLinecap="round"
                   strokeLinejoin="round"
+                  fill="#F4F4F4"
                 />
               </svg>

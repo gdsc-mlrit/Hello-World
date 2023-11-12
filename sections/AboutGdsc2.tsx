@@ -6,8 +6,8 @@ const AboutGdsc2 = () => {
       <h2 className="bg-limee sm:text-[2.2rem] text-[1.4rem] font-semibold font-poppins py-2 px-[10vw] absolute top-0 translate-y-[-50%] sm:rounded-2xl rounded-lg">
         WHO ARE WE?
       </h2>
-      <div className="flex flex-col justify-center w-[75%] gap-10 sm:py-[5rem] sm:pt-[7rem] py-[2rem]">
-        <img src="/gdsclogo.png" alt="" className="sm:py-5 pt-4" />
+      <div className="flex flex-col justify-center sm:w-[75%] w-[85%] gap-10 sm:py-[5rem] sm:pt-[7rem] py-[2rem]">
+        <img src="/gdsclogo.png" alt="" className="sm:py-5 pt-4 max-sm:pt-6" />
         <p className="text-white sm:text-2xl md:text-justify">
           GDSC, a global Google endeavor, nurtures an exuberant worldwide
           community of budding student developers. Spearheaded by students

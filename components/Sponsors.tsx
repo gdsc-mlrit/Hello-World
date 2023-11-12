@@ -23,16 +23,16 @@ const Sponsors = () => {
         </div> */}
         <div className="flex flex-col justify-center items-center gap-10 w-full">
           <div className="flex flex-col justify-center items-center w-full  max-md:gap-5">
-            <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem]  text-white  font-semibold lg:pl-3">
+            <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem]  text-white  font-semibold lg:pl-3 m-auto">
               Gold Partner
             </h2>
             <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f]">
-              <a href="https://www.jdoodle.com/" target="_blank" className="">
-                <img
-                  src="/JD_logo.png"
-                  alt=""
-                  className="lg:h-[10rem] md:h-[7rem] h-[5rem]"
-                />
+              <a
+                href="https://www.jdoodle.com/"
+                target="_blank"
+                className="flex items-center p-5"
+              >
+                <img src="/JD_logo.png" alt="" className="w-[22rem]" />
               </a>
             </div>
           </div>
