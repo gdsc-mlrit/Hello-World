@@ -21,7 +21,7 @@ const Footer = () => {
             <img src="/twitter.svg" alt="" />
             Twitter
           </p> */}
-        <a href="https://www.linkedin.com/in/dinesh-nalam17/">
+        <a href="https://www.linkedin.com/company/gdscmlrit/">
           <p className="flex lg:gap-6 gap-2 hover:text-limee">
             <img src="/linkedin.svg" alt="" />
             Linked In

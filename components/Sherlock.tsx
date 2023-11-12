@@ -2,7 +2,7 @@ const Sherlock = () => {
   return (
     <main className="lg:w-[75%] w-full max-sm:hidden">
       <div className="border-r-[0.6rem] border-limee pr-[3rem] relative">
-        <h1 className="xl:text-[4.5rem] xl:leading-[6rem] lg:text-[3.5rem] lg:leading-[5rem] text-[3rem] leading-[4rem] font-bold text-white text-right">
+        <h1 className="xl:text-[5.2rem] xl:leading-[6.5rem] lg:text-[3.5rem] lg:leading-[5rem] text-[3rem] leading-[4rem] font-semibold text-white text-right">
           Explore <br />
           <span className="text-limee text-[1.8em]">Design</span>
         </h1>
@@ -13,7 +13,7 @@ const Sherlock = () => {
         />
       </div>
       <div className="flex justify-between flex-row-reverse">
-        <div className="text-white text-3xl flex flex-col justify-center gap-2 pr-[3.6rem] text-right">
+        <div className="text-white text-3xl flex flex-col justify-center gap-1 text-right">
           <p>What is Design?</p>
           <p>Design as a Career</p>
           <p>Elements of Graphic Design</p>
@@ -24,15 +24,21 @@ const Sherlock = () => {
           <img
             src="/profiles/Sherlock.png"
             alt="sherlock"
-            className="lg:w-[250px] w-[180px]"
+            className="lg:w-[210px] w-[180px]"
           />
-          <h2 className="lg:text-4xl text-3xl font-bold">Sri Nikhil</h2>
-          <h3 className="lg:text-xl text-lg font-semibold text-limee">
+          <h2 className="text-3xl font-bold pt-3">Sri Nikhil</h2>
+          <h3 className="text-lg font-semibold text-limee">
             Design Lead, GDSC MLRIT
           </h3>
-          <p className="text-md">Most Valuable Student, HoneSt.</p>
-          <p className="text-md">UI/UX Hyderabad Community</p>
-          <h1 className="absolute text-limee lg:text-[6rem] text-[5rem] font-bold -rotate-90 right-0 translate-x-[-28%]">
+          <p className="text-sm">Most Valuable Student, HoneSt.</p>
+          <p className="text-sm">UI/UX Hyderabad Community</p>
+          {/* <h1 className="absolute text-limee lg:text-[6rem] text-[5rem] font-bold -rotate-90 right-0 translate-x-[-28%]">
+            SPEAKER
+          </h1> */}
+          <h1 className="absolute text-[#1f1f1f] special border-limee lg:text-[5.2rem] text-[5rem] font-bold -rotate-90 right-0 translate-x-[-30%] translate-y-[-5%]">
+            SPEAKER
+          </h1>
+          <h1 className="absolute text-limee lg:text-[5.2rem] text-[5rem] font-bold -rotate-90 right-0 translate-x-[-28%]">
             SPEAKER
           </h1>
         </div>

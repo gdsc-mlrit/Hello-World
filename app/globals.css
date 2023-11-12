@@ -11,6 +11,11 @@
   color: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
 }
 
+.special {
+  text-shadow: -1px -1px 0 rgb(108, 199, 48), 1px -1px 0 rgb(108, 199, 48),
+    -1px 1px 0 rgb(108, 199, 48), 1px 1px 0 rgb(108, 199, 48);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

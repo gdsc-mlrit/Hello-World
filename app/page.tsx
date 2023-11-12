@@ -70,8 +70,8 @@ export default function Home() {
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
 
-      <section id="DOMAINS">
-        <section className="flex justify-center my-10 mt-24 max-sm:hidden">
+      <section id="DOMAINS" className="bg-[#1f1f1f]">
+        <section className="flex justify-center pt-24 max-sm:hidden ">
           <Dinesh />
         </section>
 
