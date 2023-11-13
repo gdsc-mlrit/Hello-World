@@ -28,7 +28,7 @@ const Sponsors = () => {
             </h2>
             <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f]">
               <a
-                href="https://www.jdoodle.com/"
+                href="https://www.jdoodle.com/?utm_source=Hello+World+GDSC&utm_medium=Event&utm_campaign=Hackathon+Sponsorship"
                 target="_blank"
                 className="flex items-center p-5"
               >
