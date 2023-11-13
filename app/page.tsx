@@ -77,6 +77,10 @@ export default function Home() {
         <Sponsors />
       </section>
 
+      <section className="my-10">
+        <Helloworld />
+      </section>
+
       <section className="pt-24 lg:pt-[10rem] flex flex-col justify-center items-center">
         <div className="relative">
           <h1 className="text-[#151515] leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold special2 translate-x-[1%] translate-y-[5%]">
@@ -97,16 +101,11 @@ export default function Home() {
         <Faqs />
       </section>
 
-      <section>
-        <Helloworld />
-      </section>
-
       <footer
         id="CONTACT US"
         className="w-full border-t border-limee bg-[#1f1f1f] flex flex-col items-center mt-[5rem]"
       >
         <Footer />
-        <Socials />
       </footer>
     </main>
   );

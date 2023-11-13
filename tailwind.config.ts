@@ -22,6 +22,7 @@ const config: Config = {
         saira: ["Saira Extra Condensed", "sans-serif"],
         londrina: ["Londrina Shadow", "sans-serif"],
         dmserif: ["DM Serif Display", "serif"],
+        dmsans: ["DM Sans", "sans-serif"],
       },
       animation: {
         // 'spin-slow': 'spin 1s ',

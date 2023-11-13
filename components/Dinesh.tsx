@@ -2,14 +2,9 @@ const Dinesh = () => {
   return (
     <main className="lg:w-[75%] w-full max-sm:hidden">
       <div className="border-l-[0.6rem] border-limee pl-[3rem] relative">
-        <div className="xl:text-[5.25rem] xl:leading-[6rem] lg:text-[4.5rem] lg:leading-[5rem] text-[3rem] leading-[4rem] font-semibold text-white pb-5">
+        <div className="xl:text-[5.25rem] xl:leading-[6rem] lg:text-[4.5rem] lg:leading-[5rem] text-[3rem] leading-[4rem] font-semibold text-white font-dmsans">
           Explore <br />
-          <div className="relative">
-            <h1 className="text-[#151515] text-[1.8em] special translate-x-1 translate-y-2">
-              Startups
-            </h1>
-            <h1 className="text-limee text-[1.8em] absolute top-0">Startups</h1>
-          </div>
+          <span className="text-[1.5em] text-limee">Startups</span>
         </div>
         <img
           src="/gray_roc.svg"
