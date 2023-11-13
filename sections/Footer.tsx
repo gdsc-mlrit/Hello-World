@@ -35,8 +35,12 @@ const Footer = () => {
       </div>
       <div className="flex flex-col justify-center gap-5 sm:gap-3 text-white md:pr-10 max-sm:pt-6 max-lg:pt-12 pt-5">
         <h3 className="lg:text-2xl max-lg:hidden text-xl ">Phone:</h3>
-        <p className="lg:text-xl md:text-lg text-md">+91 70950 91735</p>
-        <p className="lg:text-xl md:text-lg text-md ">+91 87908 21615</p>
+        <p className="lg:text-xl md:text-lg text-md">
+          Dinesh: <span className="max-sm:pl-3">+91 7095091735</span>
+        </p>
+        <p className="lg:text-xl md:text-lg text-md ">
+          Nikhil: <span className="max-sm:pl-6 pl-3">+91 8790821615</span>
+        </p>
       </div>
     </div>
   );

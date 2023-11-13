@@ -16,6 +16,7 @@ import Socials from "@/components/Socials";
 import Team from "@/sections/Team";
 import TeamMobile from "@/sections/TeamMobile";
 import DomainsMobile from "@/sections/DomainsMobile";
+import Helloworld from "@/sections/Helloworld";
 
 export default function Home() {
   const dark = true;
@@ -90,6 +91,10 @@ export default function Home() {
       <section id="FAQS" className="flex justify-center pt-10 lg:pt-[10rem]">
         <Faqs />
       </section>
+
+      {/* <section>
+        <Helloworld />
+      </section> */}
 
       <footer
         id="CONTACT US"

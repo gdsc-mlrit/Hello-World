@@ -35,7 +35,7 @@ const Sponsors = () => {
                 target="_blank"
                 className="flex items-center p-5"
               >
-                <img src="/JD_logo.png" alt="" className="w-[22rem]" />
+                <img src="/JD_logo.png" alt="" className="w-[22rem] " />
               </a>
             </div>
           </div>
@@ -48,9 +48,9 @@ const Sponsors = () => {
               <a
                 href="https://beeceptor.com/?utm_source=gdsc"
                 target="_blank"
-                className="flex items-center p-5"
+                className="flex items-center p-5 bg-white"
               >
-                <img src="beer.svg" alt="" className="w-[22rem]" />
+                <img src="beer.svg" alt="" className="w-[22rem] " />
               </a>
 
               <a href="https://interviewbuddy.net/" target="_blank">
