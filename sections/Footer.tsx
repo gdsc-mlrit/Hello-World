@@ -78,20 +78,23 @@ const Footer = () => {
             <img src="/small_icons/insta.svg" alt="" className="h-[25px]" />
             Instagram
           </a>
-
+          <a
+            href="https://discord.gg/h6VbvcGHS"
+            className="flex gap-[0.6rem] items-center hover:text-limee"
+          >
+            <img
+              src="/small_icons/discord.svg"
+              alt=""
+              className="h-[25px] translate-x-[-10%]"
+            />
+            Discord
+          </a>
           <a
             href="https://www.linkedin.com/company/gdscmlrit/"
             className="flex gap-5 items-center hover:text-limee"
           >
             <img src="/linkedin.svg" alt="" className="h-[25px]" />
             Linked In
-          </a>
-          <a
-            href="https://discord.gg/h6VbvcGHS"
-            className="flex gap-5 items-center hover:text-limee"
-          >
-            <img src="/small_icons/discord.svg" alt="" className="h-[25px]" />
-            Discord
           </a>
         </div>
       </div>
