@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
 
-      <section id="DOMAINS" className="bg-[#1f1f1f]">
+      <section id="DOMAINS" className="bg-[#1e1e1e]">
         <section className="flex justify-center pt-24 max-sm:hidden ">
           <Dinesh />
         </section>
@@ -55,7 +55,7 @@ export default function Home() {
 
         <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
 
-        <section className="sm:hidden bg-[#1f1f1f]">
+        <section className="sm:hidden bg-[#1e1e1e]">
           <DomainsMobile />
           <Speaker />
         </section>

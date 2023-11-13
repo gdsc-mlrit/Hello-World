@@ -15,7 +15,7 @@ const Aboutcomponent = ({ logo, questions, section }: any) => {
       <img
         src={`/${logo}.svg`}
         alt=""
-        className="absolute top-0 bottom-0 my-auto right-0 h-[150px]"
+        className="absolute top-0 right-0 translate-x-10 h-[140px]"
       />
     </div>
   );
