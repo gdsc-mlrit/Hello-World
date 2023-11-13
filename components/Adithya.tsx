@@ -20,7 +20,7 @@ const Adithya = () => {
           <p>Generative AI</p>
           <p>Open Source and Git</p>
         </div>
-        <div className="flex flex-col justify-center items-center text-white relative pr-[6rem] translate-y-[-15%] translate-x-[-10%]">
+        <div className="flex flex-col justify-center items-center text-white relative pr-[6rem] translate-y-[-15%] translate-x-[0%]">
           <img
             src="/profiles/Reaper.png"
             alt="reaper"
