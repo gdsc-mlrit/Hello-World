@@ -106,6 +106,9 @@ export default function Home() {
         className="w-full border-t border-limee bg-[#1f1f1f] flex flex-col items-center mt-[5rem]"
       >
         <Footer />
+        <p className="text-lg sm:text-xl md:text-2xl font-poppins py-5 text-white">
+          Made with 💚, <span className="text-limee">GDSC MLRIT</span>
+        </p>
       </footer>
     </main>
   );

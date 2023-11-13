@@ -24,11 +24,11 @@ const Speaker = () => {
         <p>State Level Pitch Fest Winner</p>
         <div className="flex absolute right-0 w-[48px] justify-center">
           <p className="-rotate-90  text-[#1f1f1f] text-6xl font-bold special2">
-            STARTUPS
+            Startups
           </p>
         </div>
         <div className="flex absolute right-0 w-[48px] justify-center  translate-x-[-5%] translate-y-[5%]">
-          <p className="-rotate-90  text-limee text-6xl font-bold">STARTUPS</p>
+          <p className="-rotate-90  text-limee text-6xl font-bold">Startups</p>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center pt-24 relative pr-10 text-white">
