@@ -43,12 +43,15 @@ export const AboutHelloWorld = ({ dark }: any) => {
         </svg>
       </div>
       <div className="lg:hidden border border-[#99f94e] rounded-t-[12vw] rounded-b-[5vw] h-[90%] w-[90%] bg-[#1f1f1f] flex justify-center items-center flex-col max-lg:py-10">
-        <h2 className="lg:hidden text-[#99f94e] w-[85%] text-[2rem] leading-[2.5rem] md:text-[3rem] font-semibold font-poppins py-2 pb-5">
+        <div className="lg:hidden text-[#99f94e] w-[85%] text-[2rem] leading-[2.5rem] md:text-[3rem] font-semibold font-poppins py-2 pb-5">
           What is <br />
-          <span className="text-[2.5rem] font-semibold text-white">
-            Hello World?
-          </span>
-        </h2>
+          <div className="text-[2.5rem] font-semibold text-white relative">
+            <h1 className="text-[#1f1f1f] special2 translate-x-1 translate-y-1">
+              Hello World?
+            </h1>
+            <h1 className="absolute top-0">Hello World?</h1>
+          </div>
+        </div>
         <p className="text-white sm:text-2xl max-sm:text-left w-[85%] text-justify ">
           Hello World. Is an introductory course to various aspects of the
           future for engineers, delving into important domains including

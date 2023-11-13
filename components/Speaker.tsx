@@ -3,10 +3,15 @@ import React from "react";
 const Speaker = () => {
   return (
     <div className="md:hidden w-full px-4 flex flex-col gap-2 py-4 bg-[#1f1f1f]">
-      <h1 className="text-4xl font-poppins font-semibold text-white m-auto pr-5">
+      <div className="text-4xl font-poppins font-semibold text-white m-auto pr-5">
         Meet the <br />
-        <span className="text-limee text-6xl">Speakers</span>
-      </h1>
+        <div className="text-limee text-6xl relative">
+          <h1 className="special2 translate-x-1 translate-y-1 text-[#1f1f1f]">
+            Speaker
+          </h1>
+          <h1 className="absolute top-0">Speaker</h1>
+        </div>
+      </div>
       <div className="flex flex-col justify-center items-center pt-24 pr-10 text-white relative">
         <img
           className=" overflow-hidden w-[200px]"

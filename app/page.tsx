@@ -17,6 +17,7 @@ import Team from "@/sections/Team";
 import TeamMobile from "@/sections/TeamMobile";
 import DomainsMobile from "@/sections/DomainsMobile";
 import Helloworld from "@/sections/Helloworld";
+import Explore from "@/sections/Explore";
 
 export default function Home() {
   const dark = true;
@@ -35,8 +36,12 @@ export default function Home() {
         <AboutHelloWorld dark={dark} />
       </section>
 
-      <section className="pt-[6rem] pb-[10rem] flex justify-center">
+      <section className="pt-[6rem] lg:pb-[10rem] pb-[5rem]  flex justify-center">
         <AboutGdsc2 />
+      </section>
+
+      <section>
+        <Explore />
       </section>
 
       <div className="w-full h-[2rem] bg-[#99f94e]"></div>
@@ -92,9 +97,9 @@ export default function Home() {
         <Faqs />
       </section>
 
-      {/* <section>
+      <section>
         <Helloworld />
-      </section> */}
+      </section>
 
       <footer
         id="CONTACT US"

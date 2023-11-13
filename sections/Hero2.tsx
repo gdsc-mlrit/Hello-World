@@ -4,9 +4,9 @@ import Image from "next/image";
 const Hero2 = () => {
   return (
     <section
-      className={`my-10 sm:my-16 bg-[#151515] text-white bg-cover flex justify-start items-center sm:w-[75%] w-[85%] relative h-full`}
+      className={`md:my-10 mt-10 mb-[1rem] sm:my-16 bg-[#151515] text-white bg-cover flex justify-start items-center sm:w-[75%] w-[85%] relative h-full`}
     >
-      <div className="max-sm:min-h-[75vh] max-sm:flex max-sm:pt-[0rem] max-sm:flex-col max-sm:gap-[2rem] max-sm:justify-center md:justify-center md:items-center z-10 flex-1 relative">
+      <div className="max-sm:flex max-sm:pt-[0rem] max-sm:flex-col max-sm:gap-[2rem] max-sm:justify-center md:justify-center md:items-center z-10 flex-1 relative">
         {/* mobile and tab version */}
         <img src="/gdsclogo2.png" alt="" className="w-[20rem] max-md:hidden" />
         <h1 className="lg:hidden text-[#dfdfdf] text-[6rem] leading-[5.6rem] sm:text-[9rem] sm:leading-[9rem] md:text-[11rem] md:leading-[10rem] font-dmserif mb-5 z-10 relative mt-[7rem]">
