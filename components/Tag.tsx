@@ -6,7 +6,9 @@ const Tag = ({ icon, name }: any) => {
         alt=""
         className="sm:h-[33px] sm:w-[33px] h-[30px] w-[30px]"
       />
-      <p className="sm:text-[1.6em] text-[1.4em] pl-3 max-md:pl-5">{name}</p>
+      <p className="text-[1.4em] max-sm:font-[500] max-sm:text-2xl pl-3 max-md:pl-5">
+        {name}
+      </p>
     </div>
   );
 };

@@ -23,7 +23,7 @@ const data = [
     section: "Design",
   },
   {
-    logo: "gray_tech",
+    logo: "Vector",
     questions: [
       "Intro to Computer Science?",
       "Development Lifecycle",
@@ -37,9 +37,10 @@ const data = [
 
 const DomainsMobile = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-16 my-16">
+    <div className="w-full flex flex-col justify-center items-center gap-16 py-16">
       {data.map((domain) => (
         <Aboutcomponent
+          key={domain.logo}
           logo={domain.logo}
           section={domain.section}
           questions={domain.questions}

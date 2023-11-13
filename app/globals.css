@@ -16,6 +16,11 @@
     -1px 1px 0 rgb(108, 199, 48), 1px 1px 0 rgb(108, 199, 48);
 }
 
+.special2 {
+  text-shadow: -1px -1px 0 rgb(73, 136, 32), 1px -1px 0 rgb(73, 136, 32),
+    -1px 1px 0 rgb(73, 136, 32), 1px 1px 0 rgb(73, 136, 32);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

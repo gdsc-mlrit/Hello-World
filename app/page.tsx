@@ -34,36 +34,6 @@ export default function Home() {
         <AboutHelloWorld dark={dark} />
       </section>
 
-      {/* <section>
-        <AboutHelloWorld2 />
-      </section> */}
-
-      {/* <section className="w-full flex items-center justify-center pt-[10rem]">
-        <div className="lg:w-[75%] w-[90%] bg-[#1f1f1f] flex items-center border border-limee lg:p-20 p-5 md:p-14 md:rounded-[5rem] rounded-3xl">
-          <div className="flex flex-col items-center">
-            <h1 className="lg:text-[5rem] md:text-[4rem] md:leading-[4rem] text-[3rem] leading-[3rem] font-semibold lg:leading-[5.5rem] max-md:p-3 text-limee">
-              Competition
-            </h1>
-            <p className="text-[#dcdcdc] lg:text-2xl text-2xl pt-5 lg:w-[75%]">
-              "Embark on a two-fold adventure – share your learning journey on
-              social media and build everything from ideation presentations to
-              deployable projects in 30 days. Participation is optional,
-              highlighting exploration over obligation. Projects will be
-              assessed for consistency, feasibility, and usability, with the top
-              20 teams celebrated for their innovative contributions at the
-              dynamic intersection of learning and creativity. Join us in this
-              enriching journey where knowledge meets imagination and unleash
-              your creativity today!"
-            </p>
-          </div>
-          <img
-            src="/small_icons/compitition.svg"
-            alt=""
-            className="h-48 px-10 max-lg:hidden"
-          />
-        </div>
-      </section> */}
-
       <section className="py-[10rem] flex justify-center">
         <AboutGdsc2 />
       </section>
@@ -85,7 +55,7 @@ export default function Home() {
 
         <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
 
-        <section className="sm:hidden">
+        <section className="sm:hidden bg-[#1f1f1f]">
           <DomainsMobile />
           <Speaker />
         </section>
