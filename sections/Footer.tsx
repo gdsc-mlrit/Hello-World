@@ -90,11 +90,7 @@ const Footer = () => {
             href="https://discord.gg/h6VbvcGHS"
             className="flex items-center hover:text-limee"
           >
-            <img
-              src="/small_icons/discord.svg"
-              alt=""
-              className="px-2 h-[25px] "
-            />{" "}
+            <img src="/small_icons/discord.svg" alt="" className="h-[25px]" />{" "}
             Discord
           </a>
         </div>
