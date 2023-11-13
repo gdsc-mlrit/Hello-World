@@ -2,10 +2,17 @@ const Sherlock = () => {
   return (
     <main className="lg:w-[75%] w-full max-sm:hidden">
       <div className="border-r-[0.6rem] border-limee pr-[3rem] relative">
-        <h1 className="xl:text-[5.2rem] xl:leading-[6.5rem] lg:text-[3.5rem] lg:leading-[5rem] text-[3rem] leading-[4rem] font-semibold text-white text-right">
+        <div className="xl:text-[5.25rem] xl:leading-[6rem] lg:text-[4.5rem] lg:leading-[5rem] text-[3rem] leading-[4rem] font-semibold text-white pb-5 text-right">
           Explore <br />
-          <span className="text-limee text-[1.8em]">Design</span>
-        </h1>
+          <div className="relative">
+            <h1 className="text-[#151515] text-[1.8em] special translate-x-1 translate-y-2">
+              Design
+            </h1>
+            <h1 className="text-limee text-[1.8em] absolute top-0 right-0">
+              Design
+            </h1>
+          </div>
+        </div>
         <img
           src="/gray_design.svg"
           alt="design logo"

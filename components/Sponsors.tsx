@@ -4,8 +4,11 @@ const Sponsors = () => {
   return (
     <div className=" w-full px-6 bg-[#151515] py-10 ">
       <div className="text-center h-auto flex flex-col items-center m-auto">
-        <div>
-          <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold mb-10">
+        <div className="relative">
+          <h1 className="text-[#151515] leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold mb-10 special2 translate-x-1 translate-y-1">
+            Our Sponsors
+          </h1>
+          <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold mb-10 absolute top-0">
             Our Sponsors
           </h1>
         </div>

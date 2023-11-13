@@ -4,9 +4,15 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 const Faqs = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-5 md:px-6 pt-6 md:w-[75%] w-full">
-      <h1 className="lg:text-[4rem] md:text-[3rem] text-[2rem] pb-10 font-bold text-limee">
-        Questions? Look here
-      </h1>
+      <div className="relative">
+        <h1 className="lg:text-[4rem] md:text-[3rem] text-[2rem] pb-10 font-bold text-[#151515] special2 translate-x-1 translate-y-1">
+          Questions? Look here
+        </h1>
+        <h1 className="lg:text-[4rem] md:text-[3rem] text-[2rem] pb-10 font-bold text-limee absolute top-0">
+          Questions? Look here
+        </h1>
+      </div>
+
       <Accordion
         variant="splitted"
         showDivider={true}

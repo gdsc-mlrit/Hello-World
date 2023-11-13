@@ -34,7 +34,7 @@ export default function Home() {
         <AboutHelloWorld dark={dark} />
       </section>
 
-      <section className="py-[10rem] flex justify-center">
+      <section className="pt-[6rem] pb-[10rem] flex justify-center">
         <AboutGdsc2 />
       </section>
 
@@ -72,9 +72,15 @@ export default function Home() {
       </section>
 
       <section className="pt-24 lg:pt-[10rem] flex flex-col justify-center items-center">
-        <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold">
-          Meet the team
-        </h1>
+        <div className="relative">
+          <h1 className="text-[#151515] leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold special2 translate-x-[1%] translate-y-[5%]">
+            Meet the team
+          </h1>
+          <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold absolute top-0">
+            Meet the team
+          </h1>
+        </div>
+
         <div className="pt-10 flex justify-center">
           <Team />
           <TeamMobile />
