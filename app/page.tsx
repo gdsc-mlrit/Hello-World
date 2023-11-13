@@ -55,13 +55,13 @@ export default function Home() {
 
         <div className="w-full h-[2rem] bg-[#99f94e] max-sm:hidden"></div>
 
-        <section className="sm:hidden bg-[#1e1e1e]">
+        <section className="sm:hidden bg-[#1e1e1e] pb-12">
           <DomainsMobile />
           <Speaker />
         </section>
       </section>
 
-      <div className="md:hidden h-2 bg-limee w-full mt-10"></div>
+      <div className="md:hidden h-2 bg-limee w-full"></div>
 
       <section className="pt-10">
         <Guestspeaker />
