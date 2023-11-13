@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero2 = () => {
   return (
     <section
-      className={`md:my-10 mt-10 mb-[1rem] sm:my-16 bg-[#151515] text-white bg-cover flex justify-start items-center sm:w-[75%] w-[85%] relative h-full`}
+      className={`md:my-[5rem] mt-10 mb-[1rem] sm:my-16 bg-[#151515] text-white bg-cover flex justify-start items-center sm:w-[75%] w-[85%] relative h-full`}
     >
       <div className="max-sm:flex max-sm:pt-[0rem] max-sm:flex-col max-sm:gap-[2rem] max-sm:justify-center md:justify-center md:items-center z-10 flex-1 relative">
         {/* mobile and tab version */}
