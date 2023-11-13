@@ -90,13 +90,12 @@ const Footer = () => {
             href="https://discord.gg/h6VbvcGHS"
             className="flex items-center hover:text-limee"
           >
-            Join our{" "}
             <img
               src="/small_icons/discord.svg"
               alt=""
               className="px-2 h-[25px] "
             />{" "}
-            discord server
+            Discord
           </a>
         </div>
       </div>
