@@ -40,7 +40,7 @@ export default function Home() {
         <AboutGdsc2 />
       </section>
 
-      <section>
+      <section className="py-[3rem]">
         <Explore />
       </section>
 

@@ -9,7 +9,7 @@ const Explore = () => {
         <img
           src="/Layer_1.svg"
           alt=""
-          className="absolute top-0 lg:w-[400px] md:w-[300px] w-[200px] max-sm:translate-x-[35%]"
+          className="absolute top-0 lg:w-[400px] md:w-[300px] w-[200px] max-sm:translate-x-[35%] md:translate-y-[-25%]"
         />
       </div>
 
