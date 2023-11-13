@@ -88,9 +88,9 @@ const Footer = () => {
           </a>
           <a
             href="https://discord.gg/h6VbvcGHS"
-            className="flex items-center hover:text-limee"
+            className="flex gap-5 items-center hover:text-limee"
           >
-            <img src="/small_icons/discord.svg" alt="" className="h-[25px]" />{" "}
+            <img src="/small_icons/discord.svg" alt="" className="h-[25px]" />
             Discord
           </a>
         </div>
