@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
     <div className="sm:w-[75%] flex justify-between sm:py-24 pt-14 pb-14 max-lg:flex-col max-lg:items-center">
-      <div className="lg:text-[1.5rem] md:text-[1.2rem] text-[1rem] leading-[4em]">
+      <div className="lg:text-[1.5rem] md:text-[1.2rem] text-[1rem] max-sm:leading-[3rem]">
         <p className=" text-white">
           Liked Our Event? Don't be shy to <br />
         </p>
-        <div className="relative">
+        <div className="relative pb-5">
           <h1 className="sm:text-[6em] text-[5em] text-[#1f1f1f] font-bold font-saira special2 translate-x-2 translate-y-1">
             Contact Us
           </h1>
@@ -21,11 +21,6 @@ const Footer = () => {
             Mail
           </p>
         </a>
-
-        {/* <p className="flex sm:gap-6 gap-2 hover:text-limee">
-            <img src="/twitter.svg" alt="" />
-            Twitter
-          </p> */}
         <a href="https://www.linkedin.com/company/gdscmlrit/">
           <p className="flex lg:gap-6 gap-2 hover:text-limee">
             <img src="/linkedin.svg" alt="" />
