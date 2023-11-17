@@ -14,7 +14,9 @@ const Aboutcomponent = ({ logo, questions, section }: any) => {
       </div>
       <div>
         {questions.map((q: any) => (
-          <p className="text-white text-xl pt-2 pl-2">{q}</p>
+          <p key={q} className="text-white text-xl pt-2 pl-2">
+            {q}
+          </p>
         ))}
       </div>
       <img

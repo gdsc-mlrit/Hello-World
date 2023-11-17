@@ -81,19 +81,20 @@ export default function Home() {
         <Helloworld />
       </section>
 
-      <section className="pt-24 lg:pt-[10rem] flex flex-col justify-center items-center">
-        <div className="relative">
-          <h1 className="text-[#151515] leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold special2 translate-x-[1%] translate-y-[5%]">
-            Meet the team
-          </h1>
-          <h1 className="text-limee leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold absolute top-0">
-            Meet the team
-          </h1>
-        </div>
+      <section className="pt-24 lg:pt-[10rem] flex justify-center">
+        <div className="lg:w-[90%] flex flex-col justify-center items-center sm:border border-limee rounded-[65px] py-10 sm:bg-[#1e1e1e]">
+          <div className="relative pb-10">
+            <h1 className="text-[#151515] leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold special2  translate-y-[10%]">
+              Meet our team.
+            </h1>
+            <h1 className="text-white leading-[40px] text-center text-[40px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] font-bold absolute top-0">
+              Meet <span className="text-limee">our team.</span>
+            </h1>
+          </div>
 
-        <div className="pt-10 flex justify-center">
-          <Team />
-          <TeamMobile />
+          <div className="sm:py-10 flex justify-center">
+            <Team />
+          </div>
         </div>
       </section>
 

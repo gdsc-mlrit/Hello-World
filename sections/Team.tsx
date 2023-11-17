@@ -22,7 +22,7 @@ const images = [
 
 const Team = () => {
   return (
-    <div className="max-sm:hidden lg:w-[75%] min-h-screen flex flex-wrap justify-center items-center bg-[#151515] gap-5">
+    <div className="min-h-screen flex flex-wrap justify-center items-center gap-10">
       {images.map((element) => (
         <IdTag
           key={element.id}
