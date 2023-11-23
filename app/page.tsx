@@ -120,7 +120,7 @@ export default function Home() {
           </div>
 
           <a
-            href="https://docs.google.com/document/d/13QrCnkVMymwRIAQVE0qTBOvYblHg0EsQxAYocHm2iTg/edit?usp=sharing"
+            href="/code-of-conduct.pdf"
             className="text-limee sm:text-[1.5rem] text-[1.2rem] font-saria max-sm:pl-3 underline-offset-1 underline pb-[0.6rem]"
           >
             Code of Conduct
