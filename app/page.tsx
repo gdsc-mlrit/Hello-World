@@ -104,9 +104,29 @@ export default function Home() {
 
       <footer
         id="CONTACT US"
-        className="w-full border-t border-limee bg-[#1f1f1f] flex flex-col items-center mt-[5rem]"
+        className="bg-[#1f1f1f] flex flex-col items-center"
       >
-        <Footer />
+        <div className="w-full border-t border-limee bg-[#1f1f1f] flex flex-col items-center mt-[5rem]">
+          <Footer />
+        </div>
+        <div className="sm:w-[75%] w-[70%] items-end sm:flex gap-5 pb-[3rem]">
+          <div className="relative max-sm:pl-4">
+            <h1 className="text-[#1f1f1f] special3 font-saria font-bold text-[2.7rem]">
+              Resources:
+            </h1>
+            <h1 className="text-white absolute top-0 translate-y-[-0.25rem] translate-x-[-0.25rem] font-saria font-bold text-[2.7rem]">
+              Resources:
+            </h1>
+          </div>
+
+          <a
+            href="https://docs.google.com/document/d/13QrCnkVMymwRIAQVE0qTBOvYblHg0EsQxAYocHm2iTg/edit?usp=sharing"
+            className="text-limee sm:text-[1.5rem] text-[1.2rem] font-saria max-sm:pl-3 underline-offset-1 underline pb-[0.6rem]"
+          >
+            Code of Conduct
+          </a>
+        </div>
+
         <p className="text-lg sm:text-xl md:text-2xl font-poppins py-5 text-white">
           Made with 💚, <span className="text-limee">GDSC MLRIT</span>
         </p>
