@@ -50,19 +50,30 @@ const Sponsors = () => {
                 target="_blank"
                 className="flex items-center p-5 bg-white"
               >
-                <img src="beer.svg" alt="" className="w-[22rem] " />
+                <img src="beer.svg" alt="" className="w-[22rem]" />
               </a>
 
-              <a href="https://interviewbuddy.net/" target="_blank">
+              <a
+                href="https://interviewbuddy.net/"
+                target="_blank"
+                className="bg-white"
+              >
                 <img src="iblogo.png" alt="" className="w-[22rem]" />
               </a>
 
               <a
                 href="https://company.wolfram.com/press-center/wolfram-corporate/https://interviewbuddy.net/"
                 target="_blank"
-                className="flex items-center"
+                className="flex items-center bg-white p-1 px-4"
               >
                 <img src="wolfram2.png" alt="" className="w-[22rem]" />
+              </a>
+              <a
+                href="https://www.axure.com/"
+                target="_blank"
+                className="flex items-center bg-white max-sm:py-4"
+              >
+                <img src="/axure_logo.png" alt="" className="w-[22rem]" />
               </a>
             </div>
           </div>

@@ -42,11 +42,6 @@ const Nav = ({ dark }: any) => {
         </NavbarBrand>
       </NavbarContent>
 
-      {/* <NavbarItem className="md:hidden">
-        <ThemeButton dark={dark} handleTheme={changeTheme}/>
-      </NavbarItem>
-       */}
-
       <NavbarContent
         className="hidden sm:flex gap-[4.5vw] font-normal text-white"
         justify="center"
@@ -114,7 +109,6 @@ const Nav = ({ dark }: any) => {
       />
 
       <NavbarContent justify="end" className="max-sm:hidden">
-        {/* <ThemeButton dark={dark} handleTheme={changeTheme}/> */}
         <NavbarItem>
           <Button
             as={Link}
