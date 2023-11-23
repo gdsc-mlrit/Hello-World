@@ -104,9 +104,9 @@ export default function Home() {
 
       <footer
         id="CONTACT US"
-        className="bg-[#1f1f1f] flex flex-col items-center"
+        className="bg-[#1f1f1f] flex flex-col items-center border-t border-limee mt-[5rem]"
       >
-        <div className="w-full border-t border-limee bg-[#1f1f1f] flex flex-col items-center mt-[5rem]">
+        <div className="w-full  bg-[#1f1f1f] flex flex-col items-center">
           <Footer />
         </div>
         <div className="sm:w-[75%] w-[70%] items-end sm:flex gap-5 pb-[3rem]">
