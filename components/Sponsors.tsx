@@ -29,7 +29,7 @@ const Sponsors = () => {
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem]  text-white  font-semibold lg:pl-3 m-auto">
               Gold Partner
             </h2>
-            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f]">
+            <div className="flex gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f]">
               <a
                 href="https://www.jdoodle.com/?utm_source=Hello+World+GDSC&utm_medium=Event&utm_campaign=Hackathon+Sponsorship"
                 target="_blank"
@@ -64,7 +64,7 @@ const Sponsors = () => {
               <a
                 href="https://company.wolfram.com/press-center/wolfram-corporate/https://interviewbuddy.net/"
                 target="_blank"
-                className="flex items-center bg-white p-1 px-4"
+                className="flex items-center bg-white px-5"
               >
                 <img src="wolfram2.png" alt="" className="w-[22rem]" />
               </a>
@@ -74,6 +74,20 @@ const Sponsors = () => {
                 className="flex items-center bg-white max-sm:py-4"
               >
                 <img src="/axure_logo.png" alt="" className="w-[22rem]" />
+              </a>
+              <a
+                href="https://www.slido.com/"
+                target="_blank"
+                className="flex items-center bg-white max-sm:py-4 px-[2rem] py-[2rem]"
+              >
+                <img src="/slido.png" alt="" className="w-[20rem]" />
+              </a>
+              <a
+                href="https://rosenfeldmedia.com"
+                target="_blank"
+                className="bg-white flex items-center"
+              >
+                <img src="rosenfeldmedia.webp" alt="" className="w-[22rem]" />
               </a>
             </div>
           </div>
@@ -85,6 +99,20 @@ const Sponsors = () => {
             <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
               <a href="https://cie.iiit.ac.in/" target="_blank">
                 <img src="IIIT-CIE-Logo.png" alt="" className="w-[22rem]" />
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center items-center w-full max-md:gap-5">
+            <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
+              Community Partner
+            </h2>
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+              <a
+                href="https://www.slido.com/"
+                target="_blank"
+                className="flex items-center bg-white max-sm:py-4"
+              >
+                <img src="/deepverse.jpeg" alt="" className="w-[20rem]" />
               </a>
             </div>
           </div>
