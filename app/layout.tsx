@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers";
+import Nav from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-[#151515] overflow-x-hidden">
+    <html lang="en" className="bg-[#151515]">
       <Providers>
-        <body
-          className={`xl:flex xl:justify-center bg-[#151515] overflow-x-hidden`}
-        >
+        <body className={`bg-[#151515] overflow-x-hidden`}>
+          <Nav dark={true} />
           {children}
         </body>
       </Providers>

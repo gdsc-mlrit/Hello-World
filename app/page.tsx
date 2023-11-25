@@ -1,6 +1,3 @@
-"use client";
-
-import Nav from "@/components/Nav";
 import Faqs from "@/sections/Faqs";
 import Speaker from "@/components/Speaker";
 import Guestspeaker from "@/components/Guestspeaker";
@@ -12,19 +9,14 @@ import Dinesh from "@/components/Dinesh";
 import Adithya from "@/components/Adithya";
 import Sherlock from "@/components/Sherlock";
 import Footer from "@/sections/Footer";
-import Socials from "@/components/Socials";
 import Team from "@/sections/Team";
-import TeamMobile from "@/sections/TeamMobile";
 import DomainsMobile from "@/sections/DomainsMobile";
 import Helloworld from "@/sections/Helloworld";
 import Explore from "@/sections/Explore";
 
 export default function Home() {
-  const dark = true;
   return (
-    <main className="transition-all bg-[#151515] max-w-[1440px]">
-      <Nav dark={dark} />
-
+    <main className="bg-[#151515] max-w-[1440px]">
       <section id="HOME" className="flex justify-center">
         <Hero2 />
       </section>
@@ -33,7 +25,7 @@ export default function Home() {
         id="ABOUT"
         className="bg-[#151515] sm:pt-[5rem] relative max-sm:py-3"
       >
-        <AboutHelloWorld dark={dark} />
+        <AboutHelloWorld dark={true} />
       </section>
 
       <section className="pt-[6rem] lg:pb-[10rem] pb-[5rem]  flex justify-center">

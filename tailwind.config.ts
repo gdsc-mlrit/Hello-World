@@ -23,6 +23,7 @@ const config: Config = {
         londrina: ["Londrina Shadow", "sans-serif"],
         dmserif: ["DM Serif Display", "serif"],
         dmsans: ["DM Sans", "sans-serif"],
+        hkgrotesk: ["Hanken Grotesk", "sans-serif"],
       },
       animation: {
         // 'spin-slow': 'spin 1s ',

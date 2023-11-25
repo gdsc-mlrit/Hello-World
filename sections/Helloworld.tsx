@@ -1,3 +1,5 @@
+"use client";
+
 import { Logo911 } from "@/components/logo";
 import { Button, Link } from "@nextui-org/react";
 
