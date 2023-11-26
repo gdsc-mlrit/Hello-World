@@ -89,6 +89,13 @@ const Sponsors = () => {
               >
                 <img src="rosenfeldmedia.webp" alt="" className="w-[22rem]" />
               </a>
+              <a
+                href="https://www.taskade.com/"
+                target="_blank"
+                className="bg-white flex items-center h-[10rem] p-[1rem]"
+              >
+                <img src="taskade.png" alt="" className="w-[20rem]" />
+              </a>
             </div>
           </div>
 
