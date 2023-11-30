@@ -21,7 +21,14 @@ const Nav = ({ dark }: any) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const menuItems = ["HOME", "ABOUT", "DOMAINS", "FAQS", "CONTACT US"];
+  const menuItems = [
+    "HOME",
+    "ABOUT",
+    "DOMAINS",
+    "PARTNERS",
+    "FAQS",
+    "CONTACT US",
+  ];
 
   return (
     <Navbar
@@ -77,6 +84,17 @@ const Nav = ({ dark }: any) => {
             }`}
           >
             DOMAINS
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            href="#PARTNERS"
+            className={`text-xl hover:text-limee ${
+              dark ? "text-white" : "text-black"
+            }`}
+          >
+            PARTNERS
           </Link>
         </NavbarItem>
         <NavbarItem>

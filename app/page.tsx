@@ -65,7 +65,7 @@ export default function Home() {
         <Guestspeaker />
       </section>
 
-      <section className="pt-10">
+      <section id="PARTNERS" className="pt-10">
         <Sponsors />
       </section>
 

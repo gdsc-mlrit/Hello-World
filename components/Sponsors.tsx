@@ -33,9 +33,9 @@ const Sponsors = () => {
               <a
                 href="https://www.jdoodle.com/?utm_source=Hello+World+GDSC&utm_medium=Event&utm_campaign=Hackathon+Sponsorship"
                 target="_blank"
-                className="flex items-center p-5"
+                className="flex items-center bg-white h-[10rem]"
               >
-                <img src="/JD_logo.png" alt="" className="w-[22rem] " />
+                <img src="/JD_logo.png" alt="" className="w-[22rem]" />
               </a>
             </div>
           </div>
@@ -48,44 +48,48 @@ const Sponsors = () => {
               <a
                 href="https://beeceptor.com/?utm_source=gdsc"
                 target="_blank"
-                className="flex items-center p-5 bg-white"
+                className="flex items-center p-5 bg-white h-[10rem]"
               >
                 <img src="beer.svg" alt="" className="w-[22rem]" />
               </a>
 
               <a
-                href="https://interviewbuddy.net/"
+                href="https://company.wolfram.com/press-center/wolfram-corporate/https://interviewbuddy.net/"
                 target="_blank"
-                className="bg-white"
+                className="flex items-center bg-white h-[10rem]"
               >
-                <img src="iblogo.png" alt="" className="w-[22rem]" />
+                <img src="cwh.png" alt="" className="w-[22rem]" />
               </a>
 
               <a
                 href="https://company.wolfram.com/press-center/wolfram-corporate/https://interviewbuddy.net/"
                 target="_blank"
-                className="flex items-center bg-white px-5"
+                className="flex items-center bg-white h-[10rem] md:px-5"
               >
-                <img src="wolfram2.png" alt="" className="w-[22rem]" />
+                <img
+                  src="wolfram2.png"
+                  alt=""
+                  className="w-[22rem] md:h-[10rem]"
+                />
               </a>
               <a
                 href="https://www.axure.com/"
                 target="_blank"
-                className="flex items-center bg-white max-sm:py-4"
+                className="flex items-center bg-white max-sm:py-4 h-[10rem]"
               >
                 <img src="/axure_logo.png" alt="" className="w-[22rem]" />
               </a>
               <a
                 href="https://www.slido.com/"
                 target="_blank"
-                className="flex items-center bg-white max-sm:py-4 px-[2rem] py-[2rem]"
+                className="flex items-center bg-white px-5 h-[10rem] md:px-[3.1rem]"
               >
-                <img src="/slido.png" alt="" className="w-[20rem]" />
+                <img src="/slido.png" alt="" className="w-[18rem]" />
               </a>
               <a
                 href="https://rosenfeldmedia.com"
                 target="_blank"
-                className="bg-white flex items-center"
+                className="bg-white flex items-center h-[10rem]"
               >
                 <img src="rosenfeldmedia.webp" alt="" className="w-[22rem]" />
               </a>
@@ -104,7 +108,11 @@ const Sponsors = () => {
               Knowledge Partner
             </h2>
             <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
-              <a href="https://cie.iiit.ac.in/" target="_blank">
+              <a
+                href="https://cie.iiit.ac.in/"
+                target="_blank"
+                className="py-[1rem] bg-white"
+              >
                 <img src="IIIT-CIE-Logo.png" alt="" className="w-[22rem]" />
               </a>
             </div>
@@ -117,7 +125,7 @@ const Sponsors = () => {
               <a
                 href="https://www.slido.com/"
                 target="_blank"
-                className="flex items-center bg-white max-sm:py-4"
+                className="flex items-center"
               >
                 <img src="/deepverse.jpeg" alt="" className="w-[20rem]" />
               </a>
