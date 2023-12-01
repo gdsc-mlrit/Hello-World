@@ -1,0 +1,24 @@
+name: TypeScript Build and Test
+
+on: [push]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile TypeScript code
+        run: npx tsc
+
+      - name: Run tests
+        run: npx mocha --ext ts
