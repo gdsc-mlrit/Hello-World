@@ -12,18 +12,7 @@ const Sponsors = () => {
             Our Sponsors
           </h1>
         </div>
-        {/* <div className="flex max-sm:flex-col max-sm:justify-center sm:justify-between items-center rounded-2xl bg-[#1f1f1f] lg:w-[75%] w-full  p-3 mt-10 max-lg:px-10">
-          <h2 className="lg:text-[3.5rem] md:text-[3rem] text-[2.5rem] bg-gradient-to-r to-yellow-300 from-[#b38728] text-transparent bg-clip-text font-semibold lg:pl-3">
-            Gold:
-          </h2>
-          <a href="https://www.jdoodle.com/" target="_blank">
-            <img
-              src="/JD_logo.webp"
-              alt=""
-              className="lg:h-[10rem] md:h-[7rem] h-[5rem]"
-            />
-          </a>
-        </div> */}
+
         <div className="flex flex-col justify-center items-center gap-10 w-full">
           <div className="flex flex-col justify-center items-center w-full  max-md:gap-5">
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem]  text-white  font-semibold lg:pl-3 m-auto">
@@ -40,27 +29,55 @@ const Sponsors = () => {
             </div>
           </div>
 
+          <div className="flex flex-col justify-center items-center w-full max-md:gap-5">
+            <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
+              Powered By
+            </h2>
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+              <a
+                href="https://hack2skill.com/"
+                target="_blank"
+                className="py-[2rem] bg-white px-[3rem] "
+              >
+                <img src="/h2s.png" alt="" className="w-[16rem]" />
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center w-full max-md:gap-5">
+            <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
+              Hiring Partner
+            </h2>
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+              <a
+                href="https://www.bluelearn.in/"
+                target="_blank"
+                className=" bg-white "
+              >
+                <img src="/bluelearn.png" alt="" className="w-[22rem]" />
+              </a>
+            </div>
+          </div>
+
           <div className="flex flex-col justify-center items-center w-full  max-md:gap-5">
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
               Bronze Partner
             </h2>
             <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
               <a
-                href="https://beeceptor.com/?utm_source=gdsc"
+                href="https://www.taskade.com/"
                 target="_blank"
-                className="flex items-center p-5 bg-white h-[10rem]"
+                className="bg-white flex items-center h-[10rem] p-[1rem]"
               >
-                <img src="beer.svg" alt="" className="w-[22rem]" />
+                <img src="taskade.png" alt="" className="w-[20rem]" />
               </a>
-
               <a
-                href="https://company.wolfram.com/press-center/wolfram-corporate/https://interviewbuddy.net/"
+                href="https://www.slido.com/"
                 target="_blank"
-                className="flex items-center bg-white h-[10rem]"
+                className="flex items-center bg-white px-5 h-[10rem] md:px-[3.1rem]"
               >
-                <img src="cwh.png" alt="" className="w-[22rem]" />
+                <img src="/slido.png" alt="" className="w-[18rem]" />
               </a>
-
               <a
                 href="https://company.wolfram.com/press-center/wolfram-corporate/https://interviewbuddy.net/"
                 target="_blank"
@@ -72,6 +89,21 @@ const Sponsors = () => {
                   className="w-[22rem] md:h-[10rem]"
                 />
               </a>
+
+              <a
+                href="https://beeceptor.com/?utm_source=gdsc"
+                target="_blank"
+                className="flex items-center p-5 bg-white h-[10rem]"
+              >
+                <img src="beer.svg" alt="" className="w-[22rem]" />
+              </a>
+              <a
+                href="https://gen.xyz/"
+                target="_blank"
+                className="bg-white px-[3rem] py-[0.5rem]"
+              >
+                <img src="/xyz.png" alt="" className="w-[15rem]" />
+              </a>
               <a
                 href="https://www.axure.com/"
                 target="_blank"
@@ -79,26 +111,13 @@ const Sponsors = () => {
               >
                 <img src="/axure_logo.png" alt="" className="w-[22rem]" />
               </a>
-              <a
-                href="https://www.slido.com/"
-                target="_blank"
-                className="flex items-center bg-white px-5 h-[10rem] md:px-[3.1rem]"
-              >
-                <img src="/slido.png" alt="" className="w-[18rem]" />
-              </a>
+
               <a
                 href="https://rosenfeldmedia.com"
                 target="_blank"
                 className="bg-white flex items-center h-[10rem]"
               >
                 <img src="rosenfeldmedia.webp" alt="" className="w-[22rem]" />
-              </a>
-              <a
-                href="https://www.taskade.com/"
-                target="_blank"
-                className="bg-white flex items-center h-[10rem] p-[1rem]"
-              >
-                <img src="taskade.png" alt="" className="w-[20rem]" />
               </a>
             </div>
           </div>
@@ -115,54 +134,38 @@ const Sponsors = () => {
               >
                 <img src="IIIT-CIE-Logo.png" alt="" className="w-[22rem]" />
               </a>
+              <a
+                href="https://flutteruniversity.gitbook.io/docs/"
+                target="_blank"
+                className="flex justify-center items-center px-1 bg-white"
+              >
+                <img
+                  src="/flutteruniversity.png"
+                  alt=""
+                  className="w-[5rem] h-[5rem]"
+                />
+                <h1 className="text-3xl font-semibold">Flutter University</h1>
+              </a>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center w-full max-md:gap-5">
+          <div className="flex flex-wrap justify-center items-center w-full max-md:gap-5">
             <h2 className="lg:text-[3rem] md:text-[2.5rem] text-[2rem] font-semibold lg:pl-3 text-white">
               Community Partner
             </h2>
-            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+            <div className="flex flex-wrap gap-10 md:w-[75%] justify-center items-center rounded-3xl p-10 bg-[#1f1f1f] m-auto">
+              <a href="" target="_blank" className="flex items-center">
+                <img src="/deepverse.jpeg" alt="" className="w-[18rem]" />
+              </a>
               <a
-                href="https://www.slido.com/"
+                href="https://codewavehub.tech"
                 target="_blank"
-                className="flex items-center"
+                className="flex items-center bg-white w-[22rem] h-[10rem]"
               >
-                <img src="/deepverse.jpeg" alt="" className="w-[20rem]" />
+                <img src="cwh.png" alt="" className="w-[22rem]" />
               </a>
             </div>
           </div>
         </div>
-
-        {/* <div className="flex max-sm:flex-col max-sm:justify-center sm:justify-between items-center rounded-2xl bg-[#1f1f1f] lg:w-[75%] w-full p-3 mt-10 max-lg:px-10">
-          <h2 className="lg:text-[3.5rem] md:text-[3rem] text-[2.5rem] bg-gradient-to-r from-gray-500 to-gray-100 text-transparent bg-clip-text font-semibold lg:pl-3">
-            Silver:
-          </h2>
-          <div className="flex flex-col justify-center items-start lg:pr-24 p-5">
-            <img
-              src="/THE.png"
-              className="lg:w-[6rem] md:w-[4rem] w-[4rem]"
-              alt=""
-            />
-            <img
-              src="Part3.png"
-              className="lg:w-[12rem] md:w-[9rem] w-[9rem]"
-              alt=""
-            />
-            <img
-              src="LEAGUE.png"
-              className="lg:w-[10rem] md:w-[7rem] w-[8rem]"
-              alt=""
-            />
-          </div>
-        </div> */}
-        {/* <div className="flex max-sm:flex-col max-sm:justify-center sm:justify-between items-center rounded-2xl bg-[#1f1f1f] lg:w-[75%] w-full p-3 mt-10 max-lg:px-10 ">
-          <h2 className="lg:text-[3.5rem] md:text-[3rem] text-[2.5rem] text-white font-semibold lg:pl-3">
-            Associate
-          </h2>
-          <a href="https://cie.iiit.ac.in/" target="_blank">
-            <img src="IIIT-CIE-Logo.png" alt="" className="h-[10rem]" />
-          </a>
-        </div> */}
       </div>
     </div>
   );
