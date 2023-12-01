@@ -19,4 +19,6 @@ jobs:
 
       - name: Compile TypeScript code
         run: npx tsc
+
+      - name: Run tests
         run: npx mocha --ext ts
